@@ -1,0 +1,21 @@
+# some information about you
+name: "Lukas Schäfer"
+nickname: "Lukas"
+image: "images/profile_picture/profile_lakedistrict_cropped.jpg"
+
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+
+# give your contact information. they will be used in the footer
+contactInfo:
+  email: "l.schaefer@ed.ac.uk"
+  phone: "+44 7925 103212"
+
+# a summary of what you do
+summary:
+- I am a Researcher
+- I work on Multi-Agent Reinforcement Learning
+- I love music
+- I love reading
+- I love gaming
+- I love traveling

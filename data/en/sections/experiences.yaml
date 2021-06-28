@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Dematic
+    url: "https://www.dematic.com/en-gb/"
+    location: Remote
+    # company overview
+    overview: Dematic is global player focused on design and implementation of automated system solutions for warehouses, distribution centres and production facilities.
+  positions:
+  - designation: Research Intern
+    start: Nov 2020
+    end: Mar 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Applying state-of-the-art AI technology to enable a prototype for automation of large-scale robotic warehouse logistics.
+
+- company:
+    name: HYPED
+    url: "https://www.hyp-ed.com/"
+    location: Edinburgh
+    # company overview
+    overview: HYPED is a team of students at the University of Edinburgh dedicated to developing the Hyperloop concept and inspiring future generations about engineering. HYPED has received awards from SpaceX, Virgin Hyperloop One and Institution of Civil Engineers.
+  positions:
+  - designation: Navigation Advisor
+    start: Sep 2019
+    end: Aug 2020
+    responsibilities:
+    - Advising navigation team on the adaptation and implementation of improved sensor and filtering techniques
+
+  - designation: Navigation Engineer
+    start: Sep 2018
+    end: Aug 2019
+    responsibilities:
+    - Developing navigation system of "The Flying Podsman" Hyperloop prototype using sensor filtering, processing and control techniques to estimate location, orientation and speed of the pod
+    - Finalist for the SpaceX 2019 Hyperloop competition in California in Summer 2019

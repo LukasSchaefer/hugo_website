@@ -1,0 +1,15 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+skills:
+    - name: Python
+      icon: "images/skills/python.png"
+      summary: "Capable of developing in Python. Experienced in using libraries for ML including NumPy, TensorFlow and in particular PyTorch."
+      url: "https://www.python.org/"

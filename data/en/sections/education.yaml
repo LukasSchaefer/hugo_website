@@ -1,0 +1,117 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ph.D in Data Science and Artificial Intelligence
+  icon: fa-microscope
+  timeframe: 2019-Present
+  institution:
+    name: University of Edinburgh
+    url: "https://www.ed.ac.uk/"
+  publications: #(optional)
+  - title: "Shared Experience Actor-Critic for Multi-Agent Reinforcement Learning (NeurIPS 2020)"
+    url: "https://arxiv.org/abs/2006.07169"
+  - title: "Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks (Preprint)"
+    url: "https://openreview.net/forum?id=cIrPX-Sn5n"
+
+- name: M.Sc. in Informatics
+  icon: fa-graduation-cap
+  timeframe: 2018-2019
+  institution:
+    name: University of Edinburgh
+    url: "https://www.ed.ac.uk/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 77.28
+    outOf: 100
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    courses:
+    - name: Reinforcement Learning
+      achieved: 82
+      outOf: 100
+    - name: Algorithmic Game Theory and its Applications
+      achieved: 98
+      outOf: 100
+    - name: Machine Learning and Pattern Recognition
+      achieved: 64
+      outOf: 100
+    - name: Probabilistic Modelling and Reasoning
+      achieved: 75
+      outOf: 100
+    - name: Decision Making in Robots and Autonomous Agents
+      achieved: 86
+      outOf: 100
+    - name: "Robotics: Science and Systems"
+      achieved: 87
+      outOf: 100
+  publications: #(optional)
+  - title: Curiosity in Multi-Agent Reinforcement Learning
+    url: "https://www.researchgate.net/profile/Lukas-Schaefer-4/publication/337991678_Curiosity_in_Multi-Agent_Reinforcement_Learning/links/5df92a6c299bf10bc3634a1a/Curiosity-in-Multi-Agent-Reinforcement-Learning.pdf"
+  extracurricularActivities: #(optional)
+  - Active position as navigation engineer for HYPED.
+  - Participation in GEAS roleplaying society.
+  - Participation in EUKC - Edinburgh University Kendo Club.
+
+- name: B.Sc. in Informatics
+  icon: fa-graduation-cap
+  timeframe: 2015-2018
+  institution:
+    name: Saarland University
+    url: "https://saarland-informatics-campus.de/en/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 1.2
+    outOf: 5.0
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    courses:
+    - name: Automated Planning
+      achieved: "1.0"
+      outOf: 5.0
+    - name: Admissible Search Enhancements
+      achieved: "1.0"
+      outOf: 5.0
+    - name: Information Retrieval and Data Mining
+      achieved: 1.7
+      outOf: 5.0
+    - name: Artificial Intelligence
+      achieved: 1.7
+      outOf: 5.0
+    - name: Software Engineering
+      achieved: 1.3
+      outOf: 5.0
+    - name: Modern Imperative Programming Languages
+      achieved: 1.3
+      outOf: 5.0
+  publications: #(optional)
+  - title: Domain-Dependent Policy Learning using Neural Networks in Classical Planning
+    url: "https://www.lukaschaefer.com/assets/files/bsc_thesis.pdf"
+  extracurricularActivities: #(optional)
+  - Japanese language and cultural studies as minor subject.
+
+- name: Higher Secondary School Certificate
+  icon: fa-university
+  timeframe: 2008-2015
+  institution:
+    name: Warndtgymnasium
+    url: "http://warndt-gymnasium.de/"
+  grade: #(optional)
+    scale: GPA
+    achieved: "1.0"
+    outOf: 5
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.

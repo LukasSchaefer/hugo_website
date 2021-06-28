@@ -1,0 +1,61 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: false
+
+designation: PhD Student
+
+company:
+    name: University of Edinburgh
+    url: https://www.ed.ac.uk/
+
+summary: "I am a 24-year-old Data Science and Artificial Intelligence PhD student from Germany working on Multi-Agent Reinforcement learning at the [Autonomous Agents Research Group](https://agents.inf.ed.ac.uk/)."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "l.schaefer@ed.ac.uk"
+
+- name: ResearchGate
+  icon: "fab fa-researchgate"
+  url: "https://www.researchgate.net/profile/Lukas-Schaefer-4"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/LukasSchaefer"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/lukas-schaefer/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/LukasSchaefer96"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/lukas.schaefer96/"
+
+resume: "files/CV_research.pdf"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green
+# softSkills:
+# - name: Leadership
+#   percentage: 85
+#   color: blue
+# - name: Team Work
+#   percentage: 90
+#   color: yellow
+# - name: Communication
+#   percentage: 85
+#   color: pink
+# - name: Hard Working
+#   percentage: 85
+#   color: green
