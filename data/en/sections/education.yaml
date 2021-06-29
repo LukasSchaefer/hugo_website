@@ -15,6 +15,7 @@ degrees:
   institution:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
+    logo: uoe_logo.png
   publications: #(optional)
   - title: "Shared Experience Actor-Critic for Multi-Agent Reinforcement Learning (NeurIPS 2020)"
     url: "https://arxiv.org/abs/2006.07169"
@@ -27,6 +28,7 @@ degrees:
   institution:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
+    logo: uoe_logo.png
   grade: #(optional)
     scale: CGPA
     achieved: 77.28%
@@ -68,6 +70,7 @@ degrees:
   institution:
     name: Saarland University
     url: "https://saarland-informatics-campus.de/en/"
+    logo: uds_logo_small.png
   grade: #(optional)
     scale: CGPA
     achieved: 1.2
@@ -107,6 +110,7 @@ degrees:
   institution:
     name: Warndtgymnasium
     url: "http://warndt-gymnasium.de/"
+    logo: wg_logo.jpg
   grade: #(optional)
     scale: GPA
     achieved: "1.0"
