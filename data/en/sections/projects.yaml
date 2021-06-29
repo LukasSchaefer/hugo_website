@@ -7,6 +7,8 @@ section:
   showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
+  # add disclaimer at bottom about not all projects shared code for
+  disclaimer: "For most projects, I am unable to provide access to code repositories. However, I would gladly discuss more details regarding the projects wherever possible. If you would like further information or have any general questions, please do not hesitate to get in touch!"
 
 # filter buttons
 buttons:

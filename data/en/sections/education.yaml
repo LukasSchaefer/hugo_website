@@ -7,7 +7,6 @@ section:
   weight: 4
   showOnNavbar: false
   # Can optionally hide the title in sections
-  # hideTitle: true
 
 degrees:
 - name: Ph.D in Data Science and Artificial Intelligence
@@ -30,29 +29,30 @@ degrees:
     url: "https://www.ed.ac.uk/"
   grade: #(optional)
     scale: CGPA
-    achieved: 77.28
-    outOf: 100
+    achieved: 77.28%
+    # outOf: 100%
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
+    hideScale: true
     courses:
     - name: Reinforcement Learning
-      achieved: 82
+      achieved: 82%
       outOf: 100
     - name: Algorithmic Game Theory and its Applications
-      achieved: 98
+      achieved: 98%
       outOf: 100
     - name: Machine Learning and Pattern Recognition
-      achieved: 64
+      achieved: 64%
       outOf: 100
     - name: Probabilistic Modelling and Reasoning
-      achieved: 75
+      achieved: 75%
       outOf: 100
     - name: Decision Making in Robots and Autonomous Agents
-      achieved: 86
+      achieved: 86%
       outOf: 100
     - name: "Robotics: Science and Systems"
-      achieved: 87
+      achieved: 87%
       outOf: 100
   publications: #(optional)
   - title: Curiosity in Multi-Agent Reinforcement Learning
@@ -71,10 +71,11 @@ degrees:
   grade: #(optional)
     scale: CGPA
     achieved: 1.2
-    outOf: 5.0
+    # outOf: 5.0
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
+    hideScale: true
     courses:
     - name: Automated Planning
       achieved: "1.0"
@@ -109,7 +110,7 @@ degrees:
   grade: #(optional)
     scale: GPA
     achieved: "1.0"
-    outOf: 5
+    # outOf: 5
   # extracurricularActivities: #(optional)
   # - In vitae facilisis est, eget porta sem.
   # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.

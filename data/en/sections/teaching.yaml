@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Teaching Experience
+  id: teaching
+  template: sections/teaching.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 7
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+positions:
+- title: "Teaching Assistant"
+  where: "School of Informatics, University of Edinburgh"
+  start: "Oct 2019"
+  # if not set use Present
+  # end: 
+  header: "Teaching assistant, demonstrator and marker for the Reinforcement Learning lecture at the University of Einburgh under Dr. Stefano V. Albrecht"
+  responsibilities:
+    - Holding lectures on implementation of RL systems and Deep RL
+    - Designing RL project covering wide range of topics including dynamic programming, single- and multi-agent RL as well as deep RL
+    - Marking project and exam for reinforcement learning course
+    - Advising students on various challenges regarding lecture material and content
+
+- title: "Lecturer and Coach"
+  where: "Mathematics Preparation Course, Saarland University"
+  start: "Sep 2017"
+  end: "Oct 2017"
+  header: "Voluntary lecturer and coach for the mathematics preparation course preparing upcoming computer science undergraduate students for their studies"
+  responsibilities:
+    - Assisted the organisation of the mathematics preparation course for upcoming computer science students aiming to introduce them to foundational mathematical concepts, the university and student life as a whole
+    - Introduced **∼250 participants** to the importance of mathematics for computer science, formal languages and predicate logic in daily lectures of the first week
+    - Supervised two groups to provide feedback and further assistance in daily coaching-sessions
+    - The course received the **BESTE-award** for special student commitment 2017 at Saarland University
+
+- title: "Teaching Assistant"
+  where: "Dependable Systems and Software Chair, Saarland University"
+  start: "Oct 2016"
+  end: "Mar 2017"
+  header: "Tutor for the Programming 1 lecture about functional programming at the Dependable Systems and Software Group chair of Saarland University under Prof. Dr. Holger Hermanns"
+  responsibilities:
+    - Taught first-year students fundamental concepts of functional programming, basic complexity theory and inductive correctness proofs in weekly tutorials and office hours
+    - Corrected weekly tests as well as mid- and endterm exams
+    - Collectively created learning materials and discussed student progress as part of the whole teaching team

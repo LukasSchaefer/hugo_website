@@ -1,0 +1,21 @@
+# section information
+section:
+  name: Reviewing
+  id: reviewing
+  template: sections/reviewing.html
+  enable: true
+  weight: 9
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+revs:
+- title:  NeurIPS 2021 Datasets and Benchmarks Track
+  url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+  category: Conference
+  conference: "Conference on Neural Information Processing Systems (NeurIPS), 2021"
+
+- title: "The pre-registration experiment: an alternative publication model for machine learning research"
+  url: "https://preregister.science/"
+  category: Workshop
+  conference: "Conference on Neural Information Processing Systems (NeurIPS), 2020"

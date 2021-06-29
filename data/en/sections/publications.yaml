@@ -1,0 +1,27 @@
+# section information
+section:
+  name: Publications
+  id: publications
+  template: sections/publications.html
+  enable: true
+  weight: 8
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+pubs:
+- title: Shared Experience Actor-Critic for Multi-Agent Reinforcement learning
+  shortcut: seac
+  url: "https://arxiv.org/abs/2006.07169"
+  category: Conference
+  authors: Filippos Christianos, Lukas Schäfer, Stefano V. Albrecht
+  publisher: "Conference on Neural Information Processing Systems (NeurIPS), 2020"
+  abstract: "Exploration in multi-agent reinforcement learning is a challenging problem, especially in environments with sparse rewards. We propose a general method for efficient exploration by sharing experience amongst agents. Our proposed algorithm, called Shared Experience Actor-Critic (SEAC), applies experience sharing in an actor-critic framework. We evaluate SEAC in a collection of sparse-reward multi-agent environments and find that it consistently outperforms two baselines and two state-of-the-art algorithms by learning in fewer steps and converging to higher returns. In some harder environments, experience sharing makes the difference between learning to solve the task and not learning at all."
+
+- title: Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks
+  shortcut: marl_benchmark
+  url: "https://arxiv.org/abs/2006.07869"
+  category: Preprint
+  authors: Georgios Papoudakis, Filippos Christianos, Lukas Schäfer, Stefano V. Albrecht
+  publisher: "arXiv, 2006.07869, 2021"
+  abstract: "Multi-agent deep reinforcement learning (MARL) suffers from a lack of commonly-used evaluation tasks and criteria, making comparisons between approaches difficult. In this work, we consistently evaluate and compare three different classes of MARL algorithms (independent learning, centralised multi-agent policy gradient, value decomposition) in a diverse range of cooperative multi-agent learning tasks. Our experiments serve as a reference for the expected performance of algorithms across different learning tasks, and we provide insights regarding the effectiveness of different learning approaches. We open-source EPyMARL, which extends the PyMARL codebase to include additional algorithms and allow for flexible configuration of algorithm implementation details such as parameter sharing. Finally, we open-source two environments for multi-agent research which focus on coordination under sparse rewards."
