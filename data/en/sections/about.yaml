@@ -47,12 +47,21 @@ resume: "files/CV_research.pdf"
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green
 softSkills:
-- name: Leadership
-  percentage: 85
+- name: Research
+  percentage: 90
   color: blue
-- name: Team Work
+- name: Deep Learning
   percentage: 90
   color: yellow
-- name: Communication
+- name: Teaching
   percentage: 85
   color: green
+- name: Python
+  percentage: 90
+  color: pink
+- name: C++
+  percentage: 80
+  color: sky
+- name: Unix
+  percentage: 75
+  color: orange

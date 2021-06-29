@@ -13,11 +13,15 @@ section:
 # filter buttons
 buttons:
 - name: All
-  filter: "All"
+  filter: "all"
 - name: Academic
   filter: "Academic"
 - name: Personal
   filter: "Personal"
+- name: BSc
+  filter: "BSc"
+- name: MSc
+  filter: "MSc"
 
 # your projects
 projects:
@@ -55,7 +59,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Group project as part of Software Engineering lecture going through all stages of software engineering from requirement gathering over planning and designing the architecture up to implementing and properly testing our prototype.
-  tags: ["Academic", "Bsc", "SE", "Python"]
+  tags: ["Academic", "BSc", "SE", "Python"]
 
 - name: Galaxy-Based Search Algorithm
   # logo: /images/sections/projects/kubernetes.png
@@ -64,7 +68,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Group project as part of Natural Computing lecture developing and critiquing the Galaxy-based Search Algorithm (GbSA) in comparison to Particle Swarm Optimisation (PSO) for PCA approximation.
-  tags: ["Academic", "Bsc", "Optimisation", "Python"]
+  tags: ["Academic", "BSc", "Optimisation", "Python"]
 
 - name: CDCL SAT-Solver
   # logo: /images/sections/projects/kubernetes.png
@@ -73,7 +77,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Group project as part of Modern Imperative Programming Languages lecture implementing the Conflict-Driven Clause Learning (CDCL) SAT-Solver using Rust. 
-  tags: ["Academic", "Bsc", "SAT Solver", "Rust"]
+  tags: ["Academic", "BSc", "SAT Solver", "Rust"]
 
 - name: Automated Planning System
   # logo: /images/sections/projects/kubernetes.png
@@ -91,7 +95,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: In my BSc thesis project I modified and implemented the neural network architecture of [https://arxiv.org/abs/1709.04271](Action Schema Networks) for application in classical, deterministic planning and extensively evaluated the network's suitability for this type of automated planning.
-  tags: ["Academic", "Bsc", "Automated Planning", "C++", "Python"]
+  tags: ["Academic", "BSc", "Automated Planning", "C++", "Python"]
 
 - name: Turn-Based Game
   # logo: /images/sections/projects/kubernetes.png
@@ -100,4 +104,4 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: In this extensive summer group project, we implemented an entire fictional turn-based strategy game in which various different computer- and player-controller characters can move on a hexagonal-map and attack other characters. The entire game-logic, game-server connection and a GUI for players were implemented throughout all stages of software engineering including architecture, creating multiple prototype visualizations and diagrams, implementing and testing our software.
-  tags: ["Academic", "Bsc", "SE", "Java"]
+  tags: ["Academic", "BSc", "SE", "Java"]
