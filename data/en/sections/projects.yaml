@@ -27,8 +27,8 @@ projects:
   timeline: "January 2019 - March 2019"
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Software project as part of Reinforcement Learning lecture developing several classical and deep RL algorithms.
-  tags: ["Academic", "RL", "Deep learning", "Python"]
+  summary: Software project as part of Reinforcement Learning lecture developing several classical and deep RL algorithms. Implemented algorithms include dynamic programming algorithms value iteration and policy iteration and tabular RL SARSA, Q-Learning, and Monte Carlo control. Lastly, deep RL methods of asynchronous DQN and tabular multi-agent RL algorithms were implemented and evaluated in the Half field offense (HFO) 2D football environment.
+  tags: ["Academic", "MSc", "RL", "Deep learning", "Python"]
 
 - name: Autonomous Robot Localisation
   # logo: /images/sections/projects/kubernetes.png
@@ -36,8 +36,17 @@ projects:
   timeline: "Sep 2018 - Dec 2018"
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Group project as part of Robotics Science and Systems lecture with design, construction of a four-wheel differential steering mobile robot and development of an autonomous localisation system based on particle-filtering using sonar and IR sensors.
-  tags: ["Academic", "Robotics", "Python"]
+  summary: Group project as part of Robotics Science and Systems lecture with design, construction of a four-wheel differential steering mobile robot and development of an autonomous localisation system based on particle-filtering using sonar and IR sensors. The robot was constructed using a LEGO framework, a Raspberry Pi computer, sensors and actuators. The robot was tasked to navigate through a pre-defined environment without contact to obstacles and act on detection of variable points of interest using light sensors before returning back to its deployment location.
+  tags: ["Academic", "MSc", "Robotics", "Python"]
+
+- name: Domain-Dependent Policy Learning in Classical Planning
+  # logo: /images/sections/projects/kubernetes.png
+  role: MSc Thesis
+  timeline: "May 2019 - Aug 2019"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: In my MSc thesis project I researched the application of curiosity-inspired intrinsic exploration bonuses for multi-agent reinforcement learning. Count- and prediction-based curiosities were evaluated in combination with value-based and policy-gradient MARL methods, all implemented in PyTorch.
+  tags: ["Academic", "MSc", "Multi-Agent Reinforcement Learning", "Python"]
 
 - name: Plagiarism Detection Tool
   # logo: /images/sections/projects/kubernetes.png
@@ -46,7 +55,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Group project as part of Software Engineering lecture going through all stages of software engineering from requirement gathering over planning and designing the architecture up to implementing and properly testing our prototype.
-  tags: ["Academic", "SE", "Python"]
+  tags: ["Academic", "Bsc", "SE", "Python"]
 
 - name: Galaxy-Based Search Algorithm
   # logo: /images/sections/projects/kubernetes.png
@@ -55,7 +64,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Group project as part of Natural Computing lecture developing and critiquing the Galaxy-based Search Algorithm (GbSA) in comparison to Particle Swarm Optimisation (PSO) for PCA approximation.
-  tags: ["Academic", "Optimisation", "Python"]
+  tags: ["Academic", "Bsc", "Optimisation", "Python"]
 
 - name: CDCL SAT-Solver
   # logo: /images/sections/projects/kubernetes.png
@@ -64,7 +73,7 @@ projects:
   # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Group project as part of Modern Imperative Programming Languages lecture implementing the Conflict-Driven Clause Learning (CDCL) SAT-Solver using Rust. 
-  tags: ["Academic", "SAT Solver", "Rust"]
+  tags: ["Academic", "Bsc", "SAT Solver", "Rust"]
 
 - name: Automated Planning System
   # logo: /images/sections/projects/kubernetes.png
@@ -74,3 +83,21 @@ projects:
   url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Group project as part of Automated Planning lecture implementing several heuristics, search algorithms and pruning techniques in the Fast-Downward planning system for automated planning.
   tags: ["Academic", "Automated Planning", "C++"]
+
+- name: Domain-Dependent Policy Learning in Classical Planning
+  # logo: /images/sections/projects/kubernetes.png
+  role: BSc Thesis
+  timeline: "May 2018 - Aug 2018"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: In my BSc thesis project I modified and implemented the neural network architecture of [https://arxiv.org/abs/1709.04271](Action Schema Networks) for application in classical, deterministic planning and extensively evaluated the network's suitability for this type of automated planning.
+  tags: ["Academic", "Bsc", "Automated Planning", "C++", "Python"]
+
+- name: Turn-Based Game
+  # logo: /images/sections/projects/kubernetes.png
+  role: Group Project
+  timeline: "Sep 2016 - Oct 2016"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: In this extensive summer group project, we implemented an entire fictional turn-based strategy game in which various different computer- and player-controller characters can move on a hexagonal-map and attack other characters. The entire game-logic, game-server connection and a GUI for players were implemented throughout all stages of software engineering including architecture, creating multiple prototype visualizations and diagrams, implementing and testing our software.
+  tags: ["Academic", "Bsc", "SE", "Java"]

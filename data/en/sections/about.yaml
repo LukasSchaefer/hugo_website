@@ -46,16 +46,13 @@ resume: "files/CV_research.pdf"
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green
-# softSkills:
-# - name: Leadership
-#   percentage: 85
-#   color: blue
-# - name: Team Work
-#   percentage: 90
-#   color: yellow
-# - name: Communication
-#   percentage: 85
-#   color: pink
-# - name: Hard Working
-#   percentage: 85
-#   color: green
+softSkills:
+- name: Leadership
+  percentage: 85
+  color: blue
+- name: Team Work
+  percentage: 90
+  color: yellow
+- name: Communication
+  percentage: 85
+  color: green
