@@ -51,17 +51,17 @@ softSkills:
   percentage: 90
   color: blue
 - name: Deep Learning
-  percentage: 90
+  percentage: 85
   color: yellow
 - name: Teaching
-  percentage: 85
+  percentage: 80
   color: green
 - name: Python
   percentage: 90
   color: pink
-- name: C++
-  percentage: 80
-  color: sky
 - name: Unix
-  percentage: 75
+  percentage: 80
   color: orange
+- name: SE
+  percentage: 75
+  color: sky

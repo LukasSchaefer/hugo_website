@@ -16,11 +16,15 @@ degrees:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
     logo: uoe_logo.png
-  publications: #(optional)
-  - title: "Shared Experience Actor-Critic for Multi-Agent Reinforcement Learning (NeurIPS 2020)"
-    url: "https://arxiv.org/abs/2006.07169"
-  - title: "Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks (Preprint)"
-    url: "https://openreview.net/forum?id=cIrPX-Sn5n"
+  project: Sample Efficiency and Generalisation in Multi-Agent Reinforcement Learning
+  supervisors: Stefano V. Albrecht (primary) and Amos Storkey (secondary)
+  funding: Principal's Career Development Scholarship from the University of Edinburgh
+  keys: Reinforcement Learning, Multi-Agent Systems, Generalisation, Exploration, Intrinsic Rewards
+  # publications: #(optional)
+  # - title: "Shared Experience Actor-Critic for Multi-Agent Reinforcement Learning (NeurIPS 2020)"
+  #   url: "https://arxiv.org/abs/2006.07169"
+  # - title: "Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks (Preprint)"
+  #   url: "https://openreview.net/forum?id=cIrPX-Sn5n"
 
 - name: M.Sc. in Informatics
   icon: fa-graduation-cap
@@ -32,32 +36,61 @@ degrees:
   grade: #(optional)
     scale: CGPA
     achieved: 77.28%
+  funding: DAAD (German Academic Exchange Service) graduate scholarship & Stevenson Exchange Scholarship
     # outOf: 100%
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     hideScale: true
+    hideLecturer: true
     courses:
     - name: Reinforcement Learning
+      lecturer: Stefano Albrecht and Pavlos Andreadis
+      cp: 10
       achieved: 82%
       outOf: 100
     - name: Algorithmic Game Theory and its Applications
+      lecturer: Kousha Etessami
+      cp: 10
       achieved: 98%
       outOf: 100
     - name: Machine Learning and Pattern Recognition
+      lecturer: Iain Murray
+      cp: 20
       achieved: 64%
       outOf: 100
     - name: Probabilistic Modelling and Reasoning
+      lecturer: Michael Gutmann
+      cp: 20
       achieved: 75%
       outOf: 100
     - name: Decision Making in Robots and Autonomous Agents
+      lecturer: Ram Ramamoorthy
+      cp: 10
       achieved: 86%
       outOf: 100
     - name: "Robotics: Science and Systems"
+      lecturer: Zhibin (Alex) Li
+      cp: 20
       achieved: 87%
       outOf: 100
+    - name: Natural Computing
+      lecturer: Michael Herrmann
+      cp: 10
+      achieved: 84%
+      outOf: 100
+    - name: Informatics Project Proposal
+      lecturer: Bjoern Franke
+      cp: 10
+      achieved: 73%
+      outOf: 100
+    - name: Informatics Research Review
+      lecturer: Bjoern Franke
+      cp: 10
+      achieved: 72%
+      outOf: 100
   publications: #(optional)
-  - title: Curiosity in Multi-Agent Reinforcement Learning
+  - title: Curiosity in Multi-Agent Reinforcement Learning (74%)
     url: "https://www.researchgate.net/profile/Lukas-Schaefer-4/publication/337991678_Curiosity_in_Multi-Agent_Reinforcement_Learning/links/5df92a6c299bf10bc3634a1a/Curiosity-in-Multi-Agent-Reinforcement-Learning.pdf"
   extracurricularActivities: #(optional)
   - Active position as navigation engineer for HYPED.
@@ -79,24 +112,112 @@ degrees:
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
     hideScale: true
+    hideLecturer: true
     courses:
     - name: Automated Planning
+      lecturer: Jörg Hoffmann
+      cp: 9
       achieved: "1.0"
       outOf: 5.0
     - name: Admissible Search Enhancements
+      lecturer: Jörg Hoffmann
+      cp: 7
       achieved: "1.0"
       outOf: 5.0
     - name: Information Retrieval and Data Mining
+      lecturer: Jannik Strötgen and Jilles Vreeken
+      cp: 9
       achieved: 1.7
       outOf: 5.0
+    - name: "Neural Networks: Implementation and Application"
+      lecturer: Dietrich Klakow
+      cp: 6
+      achieved: "3.0"
+      outOf: 5.0
     - name: Artificial Intelligence
+      lecturer: Jörg Hoffmann
+      cp: 9
       achieved: 1.7
       outOf: 5.0
     - name: Software Engineering
+      lecturer: Andreas Zeller
+      cp: 9
       achieved: 1.3
       outOf: 5.0
     - name: Modern Imperative Programming Languages
+      lecturer: Sebastian Hack
+      cp: 5
       achieved: 1.3
+      outOf: 5.0
+    - name: Concurrent Programming
+      lecturer: Holger Hermanns
+      cp: 6
+      achieved: 2.7
+      outOf: 5.0
+    - name: Fundamentals of Data Structures and Algorithms
+      lecturer: Andreas Karrenbauer
+      cp: 6
+      achieved: 1.7
+      outOf: 5.0
+    - name: Information Systems
+      lecturer: Wolfgang J. Paul
+      cp: 6
+      achieved: 1.3
+      outOf: 5.0
+    - name: Introduction to Theoretical Computer Science
+      lecturer: Raimund Seidel
+      cp: 9
+      achieved: "1.0"
+      outOf: 5.0
+    - name: System Architecture
+      lecturer: Jan Reineke
+      cp: 9
+      achieved: "1.0"
+      outOf: 5.0
+    - name: Mathematics for Computer Scientists I
+      lecturer: Hannah Markwig
+      cp: 9
+      achieved: "1.0"
+      outOf: 5.0
+    - name: Mathematics for Computer Scientists II
+      lecturer: Michael Sagraloff
+      cp: 9
+      achieved: 2.3
+      outOf: 5.0
+    - name: Mathematics for Computer Scientists III
+      lecturer: Joachim Weickert
+      cp: 9
+      achieved: 1.7
+      outOf: 5.0
+    - name: Programming I
+      lecturer: Gert Smolka
+      cp: 9
+      achieved: "1.0"
+      outOf: 5.0
+    - name: Programming II
+      lecturer: Sebastian Hack
+      cp: 9
+      achieved: "1.0"
+      outOf: 5.0
+    - name: Japanese Foundations - Shokyu I
+      lecturer: Hideki Yamaguchi
+      cp: 6
+      achieved: 1.3
+      outOf: 5.0
+    - name: Japanese Foundations - Shokyu II
+      lecturer: Hideki Yamaguchi
+      cp: 6
+      achieved: "2.0"
+      outOf: 5.0
+    - name: Japanese Applied Geography
+      lecturer: Hideki Yamaguchi
+      cp: 5
+      achieved: "1.0"
+      outOf: 5.0
+    - name: Japanese History II
+      lecturer: Hideki Yamaguchi
+      cp: 5
+      achieved: "1.0"
       outOf: 5.0
   publications: #(optional)
   - title: Domain-Dependent Policy Learning using Neural Networks in Classical Planning

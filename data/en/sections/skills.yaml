@@ -2,8 +2,8 @@
 section:
   name: Skills
   id: skills
-  enable: false
-  weight: 2
+  enable: true
+  weight: 8
   showOnNavbar: false
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -13,3 +13,7 @@ skills:
       icon: "images/skills/python.png"
       summary: "Capable of developing in Python. Experienced in using libraries for ML including NumPy, TensorFlow and in particular PyTorch."
       url: "https://www.python.org/"
+    - name: Unix
+      summary: "Capable of navigating, configuring and programming UNIX systems. Experienced with core utilities such as Git and Bash."
+    - name: Software Engineering
+      summary: "Familiar with object-oriented programming in C++ and Java. Familiar with limited experience in software engineering practises and their application."
