@@ -47,3 +47,6 @@ params:
         main: images/favicons/android-chrome-512x512.png
         inverted: images/favicons/android-chrome-512x512.png
         favicon: images/favicons/favicon-32x32.png
+
+    # enable math KaTeX parsing
+    math: true
