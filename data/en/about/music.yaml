@@ -1,0 +1,20 @@
+# section information
+section:
+    name: Music
+    id: music
+    enable: true
+    weight: 5
+    showOnNavbar: true
+
+intro: |
+    My taste in music is rather broad. I listen to a large variety from classic piano music, orchestra (particularly movie soundtracks), acoustic and pop music to hard, punk and old-school rock. To name a few of my favourite artists: Ludovico Einaudi, Hans Zimmer, Howard Shore, Ed Sheeran, One Ok Rock, Greta Van Fleet and Sum 41.
+
+    Besides listening to music, I started playing the guitar at the age of 7 and had weekly lessons for 11 years. While I don't play as frequently anymore as I used to, I still try to maintain parts of what I was able to play. Making music for me was always an outlet whenever I am stressed.
+    Fairly recently, inspired by my younger brother and mother, I also started to learn playing the piano. I am not aiming to become proficient at it but I enjoy the flexibility of the instrument.
+
+    Below are some samples I recorded using just a acoustic guitar (with steel strings) and a TC Electronic Ditto X2 Looper:
+
+loops:
+    - src: "percussion_loop"
+    - src: "ayo_technology_loop"
+    - src: "simple_loop"

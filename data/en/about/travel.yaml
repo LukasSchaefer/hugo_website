@@ -1,0 +1,79 @@
+# section information
+section:
+    name: Travel
+    id: travel
+    enable: true
+    weight: 3
+    showOnNavbar: true
+
+intro: |
+    Travelling is highly rewarding. It allows us to broaden our horizon in many regards. We can see beyond our doorstep, explore the beauty of planet Earth and experience a variety of cultures and people we could not meet in our usual daily life.
+    While these encounters and experiences can seem daunting at first, I encourage everyone to dare, you won't be disappointed.
+
+quote:
+    text: "It's a dangerous business, Frodo, going out your door. You step onto the road, and if you don't keep your feet, there's no knowing where you might be swept off to."
+    source: "Bilbo Baggins in J.R.R. Tolkien's The Lord of the Rings"
+
+outro: |
+    I have to say, I was fortunate to grow up with parents fond of travelling themselves and who took me and my brothers along many fantastic journeys. However, the most influence experiences for me were my trips to Japan in 2017 and 2019 when I travelled just with friends to Tokyo, Osaka, Kyoto and Hiroshima. Planning and dealing with everything that comes with such a journey gave me an entirely new appreciation for travelling.
+    Above are some impressions of travel experiences I had in the past years.
+
+slideshow:
+# - src: "maledives/Indo-Pacific_Surgeonfish"
+#   caption: Indo-Pacific Surgeonfish, Lily Beach in Maledives
+- src: "maledives/Hawksbill_Sea_Turtle_Swimming_2"
+  caption: Hawksbill Sea Turtle, Lily Beach in Maledives
+- src: "maledives/Whale_Shark"
+  caption: Whale Shark, South Ari Atoll in Maledives
+# - src: "thailand/Chinatown_Bangkok_Thailand"
+#   caption: Chinatown, Bangkok in Thailand
+- src: "thailand/Chatuchak_Market_Bangkok_Thailand"
+  caption: Chatuchak Market, Bangkok in Thailand
+- src: "lake_garda/Cassone_di_Malcesine_Lake_Garda_Italy"
+  caption: Cassone di Malcesine, Lake Garda in Italy
+# - src: "lake_garda/Malcesine_Lake_Garda_Italy"
+#   caption: Malcesine, Lake Garda in Italy
+- src: "japan/Tokyo/Ginza_Tokyo_Japan"
+  caption: Ginza, Tokyo in Japan
+- src: "japan/Tokyo/Traditional_Japanese_Marriage_Meiji_Shrine_Tokyo_Japan"
+  caption: Japanese Marriage, Meiji Shrine, Tokyo in Japan
+# - src: "japan/Tokyo/Ueno_Park_Tokyo_Japan"
+#   caption: Ueno Park, Tokyo in Japan
+- src: "japan/Tokyo/japan_tokyo_tower"
+  caption: Tokyo Tower, Tokyo in Japan
+# - src: "japan/Tokyo/japan_tokyo_odaiba_statue_of_liberty"
+#   caption: Statue of Liberty, Odaiba, Tokyo in Japan
+# - src: "japan/Osaka/Dotonbori_Osaka_Japan"
+#   caption: Dotonbori, Osaka in Japan
+- src: "japan/Osaka/japan_osaka_castle"
+  caption: Osaka Castle, Osaka in Japan
+- src: "japan/Osaka/USJ_Hogwards_Osaka_Japan"
+  caption: Wizarding World of Harry Potter USJ, Osaka in Japan
+# - src: "japan/Kyoto/Sannenzaka_Ninenzaka_Kyoto_Japan"
+#   caption: Sannenzaka Ninenzaka, Kyoto in Japan
+- src: "japan/Kyoto/japan_kyoto_hokanji_temple"
+  caption: Hokanji Temple, Kyoto in Japan
+- src: "japan/Himeji/japan_himeji_koko_en"
+  caption: Koko-en, Himeji in Japan
+# - src: "japan/Hiroshima/japan_hiroshima_atomic_bomb_dome"
+#   caption: Atomic Bomb Dome, Hiroshima in Japan:w
+- src: "edinburgh/carlton_hill"
+  caption: Carlton Hill, Edinburgh in Scotland
+- src: "edinburgh/meadows_light"
+  caption: The Meadows, Edinburgh in Scotland
+# - src: "edinburgh/meadows_mist"
+#   caption: The Meadows, Edinburgh in Scotland
+- src: "edinburgh/military_tattoo"
+  caption: The Royal Edinburgh Military Tattoo, Edinburgh in Scotland
+- src: "edinburgh/north_berwick_back"
+  caption: North Berwick in Scotland
+# - src: "edinburgh/lake_district_grasmere_stone"
+#   caption: Grasmere, Lake District in England
+- src: "edinburgh/lake_district_grasmere"
+  caption: Grasmere, Lake District in England
+- src: "seychelles/seychelles_anse_source_d'argent"
+  caption: Anse Source d'Argent, La Digue in Seychelles 
+- src: "seychelles/seychelles_gecko"
+  caption: La Digue Day Gecko, La Digue in Seychelles
+- src: "seychelles/seychelles_sunset"
+  caption: Sunset, La Digue in Seychelles

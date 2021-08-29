@@ -1,0 +1,16 @@
+# section information
+section:
+    name: Gaming
+    id: gaming
+    enable: true
+    weight: 6
+    showOnNavbar: true
+
+text: |
+    Being born in 1996 I grew up with Gameboys, Pokemon and Zelda. This first introduction to gaming hooked first my older brother and briefly after also me and then my younger brother. While the games we played became increasingly advanced and complicated over time, playing on playstation consoles, Wii, Gamecube and later computers, our passion for gaming remained.
+
+    Similar to books, I was mostly drawn to fantasy and roleplaying games at first, but also enjoyed more competitive real-time strategy (RTS) games like The Lord of the Rings: The Battle for Middle-earth II and Starcraft II, which I played against my brothers or the in-game AI. This way, I was first introduced to AI in the field of video games. While, at the time I was already astonished that a computer-controlled player could be much better than myself, I did not think much about it.
+
+    With more complex, competitive games I also started to play League of Legends. I never became really competitive, aiming to become better and better, but still enjoyed the complexity and learning aspect of the game, which certainly can be a lot of fun, particularly with friends. Through this game, I started following the professional Esports scene, which boomed in the last 5 years. While I hardly find the time to play myself anymore, I am excited and fascinated by the level of play and strategy involved in competitive gaming.
+
+    Over the last year, I became increasingly interested in artificial intelligence as a whole and particularly machine learning. Recently, I discovered reinforcement learning and its results in video-gaming reaching [superhuman performance in Atari game playing](https://www.nature.com/articles/nature14236/). The field is quickly moving, driven forward by research of [Deepmind](https://deepmind.com/research/dqn/) and [OpenAI](https://blog.openai.com/openai-five/) as well as the general reinforcement learning research community. As I am passionate about recent research done in the field, I hope I will have the opportunity to contribute in the future.

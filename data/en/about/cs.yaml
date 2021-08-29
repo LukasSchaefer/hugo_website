@@ -1,0 +1,33 @@
+# section information
+section:
+    name: Computer Science
+    id: cs
+    enable: true
+    weight: 2
+    showOnNavbar: true
+
+intro: |
+    Computers are omnipresent in our modern society. We use them on various occasions during our everyday life, often without even noticing. While smartphones, personal computers and laptops are clearly recognised as computers, it is less visible that most cars, washing machines, microwaves, TVs and generally most electronic devices contain some form of a simple computer. It is quite astonishing that these tiny chips are often more capable than the first programmable, electromechanical computers in the 1940s which filled entire rooms like the Zuse Z3.
+
+    I always found this flexibility and computational power of modern computers impressive. They are used to solve a variety of problems and despite, at an earlier age, hardly knowing anything about how they operate, this alone raised a curiosity in me. I did not just want to use computers on a daily basis but understand how they work.
+
+paragraphs:
+    - title: School
+      text: |
+          This led to me choosing computer science as a subject for the last three years of my school career. There, I was introduced to programming and a variety of concepts used in computer science, which I would later learn about in more depth during my studies at university. These lessons strengthened my interest which lead to me studying computer science at Saarland University after finished my Abitur (German high school equivalent).
+
+    - title: Saarland University
+      text: |
+          At university I quickly noticed that despite experiencing computer science for three and mathematics for twelve years at school, this hardly scratched the surface of what these fields contain. While the first semester surely was an immense challenge, this deeper dive into math and computer science required entirely new ways of thinking. Applying mathematical concepts for formal proofs requires a significantly deeper understanding than simple calculations which dominated mathematics at school. The first two years of my undergraduate studies mostly involved a variety of foundational courses covering objective, imperative as well as functional programming, concurrency, data structures and algorithms, theoretical computer science, mathematics with analysis, linear algebra, statistics and stochastics and more. Afterwards, I was specifically interested in artificial intelligence. The idea to express knowledge, logical thinking and learning with the help of mathematical models is immensely interesting to me.
+
+          The AI courses I attended covered mostly two areas. For one, I learned about foundational concepts of machine learning and applied this knowledge in a practical course focusing on neural networks and deep learning as a part of machine learning itself. Not just learning about these in theory, but also directly applying and implementing these models significantly deepened the understanding in this subfield of AI.
+
+          Secondly, I attended multiple courses regarding automated planning. The big goal of this research field is to implement a single planner which is then able to solve a variety of problems. The flexibility of these planners fascinated me and therefore I also wrote my thesis \"Domaing-Dependent Policy Learning using Neural Networks in Classical Planning\" aiming to combine deep learning and automated planning.
+
+    - title: University of Edinburgh
+      text: |
+          Following my bachelor's degree, I decided to continue my studies as an Informatics postgraduate student at the University of Edinburgh. Studying in Edinburgh was a truly remarkable experience. I grew not just as a computer scientist and researcher but also as an individual gaining life experience living and studying abroad in this international environment of academic excellence.
+
+          My M.Sc. studies mostly focused on machine learning and robotics, taking courses covering pattern recognition, theoretical machine learning, probabilistic modelling and reasoning. Lastly, I studied the areas of game theory, decision making and reinforcement learning with especially the last field fascinating me immensely. Hence, I dove deeper after an introductory course in my M.Sc. dissertation covering Curiosity in Multi-Agent Reinforcement Learning in which I analysed the impact of intrinsic curiosity for exploration in competitive and cooperative multi-agent reinforcement learning environments.
+
+          Following this research, I started as a Data Science and Artificial Intelligence PhD student at the Autonomous Agents Research Group in December 2019.

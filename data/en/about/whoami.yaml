@@ -1,0 +1,14 @@
+# section information
+section:
+    name: whoami
+    id: whoami
+    enable: true
+    weight: 1
+    showOnNavbar: true
+
+image: "/images/profile_picture/profile_lakedistrict.jpg"
+
+summary: |
+    I am a 24-year-old German Data Science and Artificial Intelligence PhD student at the [University of Edinburgh](https://www.ed.ac.uk/).
+
+    After graduating from [Saarland University](https://saarland-informatics-campus.de/en/) in August 2018 with my bachelor's degree in computer science, I moved to the beautiful city of Edinburgh, Scotland, to continue my studies as an Informatics postgraduate student. Following my graduation with Distinction and my M.Sc. in Edinburgh, I started a PhD to research novel exploration techniques for reinforcement learning as part of the [Autonomous Agents Research Group](https://agents.inf.ed.ac.uk/).
