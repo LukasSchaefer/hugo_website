@@ -1,6 +1,16 @@
 copyright: © 2021 Lukas Schäfer.
 description: Personal webpage of Lukas Schäfer, German AI PhD student at the University of Edinburgh
 
+mainPages:
+- name: Profile
+  category: sections
+  relUrl: ""
+  weight: 0
+- name: About
+  category: about
+  relUrl: "about"
+  weight: 1
+
 # add custom entries in navbar
 # customMenus:
 # - name: About

@@ -1,7 +1,7 @@
 # section information
 section:
-  name: About
-  id: about
+  name: Intro
+  id: intro
   enable: true
   weight: 1
   showOnNavbar: true
