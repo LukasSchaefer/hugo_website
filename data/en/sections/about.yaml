@@ -21,6 +21,14 @@ socialLinks:
   icon: "fas fa-envelope"
   url: "l.schaefer@ed.ac.uk"
 
+- name: GoogleScholar
+  icon: "ai ai-google-scholar"
+  url: https://scholar.google.com/citations?user=-yp0O_IAAAAJ&hl=en
+
+- name: SemanticScholar
+  icon: "ai ai-semantic-scholar"
+  url: https://www.semanticscholar.org/author/144824410
+
 - name: ResearchGate
   icon: "fab fa-researchgate"
   url: "https://www.researchgate.net/profile/Lukas-Schaefer-4"

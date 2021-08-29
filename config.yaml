@@ -37,6 +37,12 @@ params:
     newsletter:
         enable: false
 
+    footer:
+        navigation:
+            enable: false
+        newsletter:
+            enable: false
+
     # background image of the landing page
     background: "images/title_pictures/raindrops.jpg"
 
