@@ -105,8 +105,8 @@ degrees:
     url: "https://saarland-informatics-campus.de/en/"
     logo: uds_logo_small.png
   grade: #(optional)
-    scale: CGPA
-    achieved: 1.2
+    scale: GPA
+    achieved: 3.7
   transcript: bsc_transcript
     # outOf: 5.0
   takenCourses: #(optional)
@@ -118,107 +118,106 @@ degrees:
     - name: Automated Planning
       lecturer: Jörg Hoffmann
       cp: 9
-      achieved: "1.0"
-      outOf: 5.0
+      achieved: "4.0"
     - name: Admissible Search Enhancements
       lecturer: Jörg Hoffmann
       cp: 7
-      achieved: "1.0"
+      achieved: "4.0"
       outOf: 5.0
     - name: Information Retrieval and Data Mining
       lecturer: Jannik Strötgen and Jilles Vreeken
       cp: 9
-      achieved: 1.7
+      achieved: 3.3
       outOf: 5.0
     - name: "Neural Networks: Implementation and Application"
       lecturer: Dietrich Klakow
       cp: 6
-      achieved: "3.0"
+      achieved: "2.0"
       outOf: 5.0
     - name: Artificial Intelligence
       lecturer: Jörg Hoffmann
       cp: 9
-      achieved: 1.7
+      achieved: 3.3
       outOf: 5.0
     - name: Software Engineering
       lecturer: Andreas Zeller
       cp: 9
-      achieved: 1.3
+      achieved: 3.7
       outOf: 5.0
     - name: Modern Imperative Programming Languages
       lecturer: Sebastian Hack
       cp: 5
-      achieved: 1.3
+      achieved: 3.7
       outOf: 5.0
     - name: Concurrent Programming
       lecturer: Holger Hermanns
       cp: 6
-      achieved: 2.7
+      achieved: 2.3
       outOf: 5.0
     - name: Fundamentals of Data Structures and Algorithms
       lecturer: Andreas Karrenbauer
       cp: 6
-      achieved: 1.7
+      achieved: 3.3
       outOf: 5.0
     - name: Information Systems
       lecturer: Wolfgang J. Paul
       cp: 6
-      achieved: 1.3
+      achieved: 3.7
       outOf: 5.0
     - name: Introduction to Theoretical Computer Science
       lecturer: Raimund Seidel
       cp: 9
-      achieved: "1.0"
+      achieved: "4.0"
       outOf: 5.0
     - name: System Architecture
       lecturer: Jan Reineke
       cp: 9
-      achieved: "1.0"
+      achieved: "4.0"
       outOf: 5.0
     - name: Mathematics for Computer Scientists I
       lecturer: Hannah Markwig
       cp: 9
-      achieved: "1.0"
+      achieved: "4.0"
       outOf: 5.0
     - name: Mathematics for Computer Scientists II
       lecturer: Michael Sagraloff
       cp: 9
-      achieved: 2.3
+      achieved: 2.7
       outOf: 5.0
     - name: Mathematics for Computer Scientists III
       lecturer: Joachim Weickert
       cp: 9
-      achieved: 1.7
+      achieved: 3.3
       outOf: 5.0
     - name: Programming I
       lecturer: Gert Smolka
       cp: 9
-      achieved: "1.0"
+      achieved: "4.0"
       outOf: 5.0
     - name: Programming II
       lecturer: Sebastian Hack
       cp: 9
-      achieved: "1.0"
+      achieved: "4.0"
       outOf: 5.0
     - name: Japanese Foundations - Shokyu I
       lecturer: Hideki Yamaguchi
       cp: 6
-      achieved: 1.3
+      achieved: 3.7
       outOf: 5.0
     - name: Japanese Foundations - Shokyu II
       lecturer: Hideki Yamaguchi
       cp: 6
-      achieved: "2.0"
+      achieved: "3.0"
       outOf: 5.0
     - name: Japanese Applied Geography
       lecturer: Hideki Yamaguchi
       cp: 5
-      achieved: "1.0"
+      achieved: "4.0"
       outOf: 5.0
     - name: Japanese History II
       lecturer: Hideki Yamaguchi
       cp: 5
-      achieved: "1.0"
+      achieved: "4.0"
       outOf: 5.0
   publications: #(optional)
   - title: Domain-Dependent Policy Learning using Neural Networks in Classical Planning
@@ -235,7 +234,7 @@ degrees:
     logo: wg_logo.jpg
   grade: #(optional)
     scale: GPA
-    achieved: "1.0"
+    achieved: "4.0"
   awards:
       - School year's best student award
       - Computer Science award of Saarland University
