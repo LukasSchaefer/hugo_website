@@ -5,7 +5,7 @@ section:
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
   weight: 4
-  showOnNavbar: false
+  showOnNavbar: true
   # Can optionally hide the title in sections
 
 degrees:
@@ -36,6 +36,7 @@ degrees:
   grade: #(optional)
     scale: CGPA
     achieved: 77.28%
+  transcript: msc_transcript
   funding: DAAD (German Academic Exchange Service) graduate scholarship & Stevenson Exchange Scholarship
     # outOf: 100%
   takenCourses: #(optional)
@@ -107,6 +108,7 @@ degrees:
   grade: #(optional)
     scale: CGPA
     achieved: 1.2
+  transcript: bsc_transcript
     # outOf: 5.0
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
@@ -235,6 +237,12 @@ degrees:
   grade: #(optional)
     scale: GPA
     achieved: "1.0"
+  awards:
+      - School year's best student award
+      - Computer Science award of Saarland University
+      - Mathematics award of Saarland University
+      - History award of Historic Society for the Saar-Region
+
     # outOf: 5
   # extracurricularActivities: #(optional)
   # - In vitae facilisis est, eget porta sem.

@@ -5,7 +5,7 @@ section:
   template: sections/publications.html
   enable: true
   weight: 2
-  showOnNavbar: false
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 

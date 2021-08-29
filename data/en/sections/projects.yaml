@@ -4,7 +4,7 @@ section:
   id: projects
   enable: true
   weight: 5
-  showOnNavbar: false
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
   # add disclaimer at bottom about not all projects shared code for

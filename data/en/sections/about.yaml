@@ -4,7 +4,7 @@ section:
   id: about
   enable: true
   weight: 1
-  showOnNavbar: false
+  showOnNavbar: true
 
 designation: PhD Student
 
