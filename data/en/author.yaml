@@ -2,6 +2,7 @@
 name: "Lukas Schäfer"
 nickname: "Lukas"
 image: "images/profile_picture/profile_lakedistrict_cropped.jpg"
+birthDate: 1996-12-26
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
