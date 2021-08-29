@@ -1,4 +1,4 @@
-baseURL: https://lukasschaefer.github.io
+baseURL: https://lukaschaefer.com
 
 languageCode: en-us
 title: "Lukas Schäfer"
@@ -24,7 +24,7 @@ enableEmoji: true
 # Site parameters
 params:
     # GitHub repo URL of your site
-    gitRepo: https://github.com/lukasschaefer/lukasschaefer.github.io
+    # gitRepo: https://github.com/lukasschaefer/lukasschaefer.github.io
 
     # specify whether you want to write some blog posts or not
     enableBlogPost: true
