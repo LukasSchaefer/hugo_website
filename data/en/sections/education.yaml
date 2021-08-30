@@ -14,7 +14,7 @@ degrees:
   institution:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
-    logo: uoe_logo.png
+    logo: uoe_logo.jpg
   project: Sample Efficiency and Generalisation in Multi-Agent Reinforcement Learning
   supervisors: Stefano V. Albrecht (primary) and Amos Storkey (secondary)
   funding: Principal's Career Development Scholarship from the University of Edinburgh
@@ -31,7 +31,7 @@ degrees:
   institution:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
-    logo: uoe_logo.png
+    logo: uoe_logo.jpg
   grade: #(optional)
     scale: CGPA
     achieved: 77.28%
@@ -103,7 +103,7 @@ degrees:
   institution:
     name: Saarland University
     url: "https://saarland-informatics-campus.de/en/"
-    logo: uds_logo_small.png
+    logo: uds_logo_small.jpg
   grade: #(optional)
     scale: GPA
     achieved: 3.7
