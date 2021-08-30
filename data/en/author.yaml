@@ -9,8 +9,8 @@ greeting: "Hi, I am"
 
 # give your contact information. they will be used in the footer
 contactInfo:
-  email: "l.schaefer@ed.ac.uk"
-  phone: "+44 7925 103212"
+  email: "l.schaefer[at]ed.ac.uk"
+  # phone: "+44 7925 103212"
 
 # a summary of what you do
 summary:
