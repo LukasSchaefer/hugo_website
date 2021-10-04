@@ -13,8 +13,9 @@ pubs:
 - title: Decoupling Exploration and Exploitation in Reinforcement Learning
   shortcut: derl
   url: "https://arxiv.org/abs/2107.08966"
-  category: Workshop
+  category: Workshop; Revised Under Review
   authors: "**Lukas Schäfer**, Filippos Christianos, Josiah Hanna, Stefano V. Albrecht"
+  year: 2021
   publisher: "Unsupervised Reinforcement Learning (URL) Workshop in the International Conference on Machine Learning, 2021"
   abstract: "Intrinsic rewards are commonly applied to improve exploration in reinforcement learning. However, these approaches suffer from instability caused by non-stationary reward shaping and strong dependency on hyperparameters. In this work, we propose Decoupled RL (DeRL) which trains separate policies for exploration and exploitation. DeRL can be applied with on-policy and off-policy RL algorithms. We evaluate DeRL algorithms in two sparse-reward environments with multiple types of intrinsic rewards. We show that DeRL is more robust to scaling and speed of decay of intrinsic rewards and converges to the same evaluation returns than intrinsically motivated baselines in fewer interactions."
 
@@ -23,6 +24,7 @@ pubs:
   url: "https://arxiv.org/abs/2006.07869"
   category: Conference
   authors: "Georgios Papoudakis, Filippos Christianos, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2021
   publisher: "Conference on Neural Information Processing Systems (NeurIPS), 2021 - Datasets and Benchmarks track"
   abstract: "Multi-agent deep reinforcement learning (MARL) suffers from a lack of commonly-used evaluation tasks and criteria, making comparisons between approaches difficult. In this work, we consistently evaluate and compare three different classes of MARL algorithms (independent learning, centralised multi-agent policy gradient, value decomposition) in a diverse range of cooperative multi-agent learning tasks. Our experiments serve as a reference for the expected performance of algorithms across different learning tasks, and we provide insights regarding the effectiveness of different learning approaches. We open-source EPyMARL, which extends the PyMARL codebase to include additional algorithms and allow for flexible configuration of algorithm implementation details such as parameter sharing. Finally, we open-source two environments for multi-agent research which focus on coordination under sparse rewards."
 
@@ -31,5 +33,6 @@ pubs:
   url: "https://arxiv.org/abs/2006.07169"
   category: Conference
   authors: "Filippos Christianos, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2020
   publisher: "Conference on Neural Information Processing Systems (NeurIPS), 2020"
   abstract: "Exploration in multi-agent reinforcement learning is a challenging problem, especially in environments with sparse rewards. We propose a general method for efficient exploration by sharing experience amongst agents. Our proposed algorithm, called Shared Experience Actor-Critic (SEAC), applies experience sharing in an actor-critic framework. We evaluate SEAC in a collection of sparse-reward multi-agent environments and find that it consistently outperforms two baselines and two state-of-the-art algorithms by learning in fewer steps and converging to higher returns. In some harder environments, experience sharing makes the difference between learning to solve the task and not learning at all."
