@@ -4,7 +4,7 @@ section:
     id: whoami
     enable: true
     weight: 1
-    showOnNavbar: true
+    showOnNavbar: false
 
 image: "/images/profile_picture/profile_lakedistrict.jpg"
 
