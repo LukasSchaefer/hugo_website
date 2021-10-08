@@ -20,9 +20,9 @@ summary: |
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "l.schaefer@ed.ac.uk"
+# - name: Email
+#   icon: "fas fa-envelope"
+#   url: "l.schaefer@ed.ac.uk"
 
 - name: GoogleScholar
   icon: "ai ai-google-scholar"
@@ -48,9 +48,9 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://twitter.com/LukasSchaefer96"
 
-- name: Instagram
-  icon: "fab fa-instagram"
-  url: "https://www.instagram.com/lukas.schaefer96/"
+# - name: Instagram
+#   icon: "fab fa-instagram"
+#   url: "https://www.instagram.com/lukas.schaefer96/"
 
 resume: "files/CV_research.pdf"
 
