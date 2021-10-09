@@ -14,7 +14,7 @@ pubs:
 - title: Decoupling Exploration and Exploitation in Reinforcement Learning
   shortcut: derl
   url: "https://arxiv.org/abs/2107.08966"
-  arxiv: "https://arxiv.org/abs/2107.08966"
+  arxiv: "2107.08966"
   openreview: https://openreview.net/forum?id=NwuIIOcznYt
   code: https://github.com/uoe-agents/derl
   poster: publications/posters/derl.pdf
@@ -28,7 +28,7 @@ pubs:
 - title: Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks
   shortcut: marl_benchmark
   url: "https://arxiv.org/abs/2006.07869"
-  arxiv: "https://arxiv.org/abs/2006.07869"
+  arxiv: "2006.07869"
   openreview: "https://openreview.net/forum?id=cIrPX-Sn5n"
   code: https://github.com/uoe-agents/epymarl
   bibtex: publications/bibtex/marl_benchmark.bib
@@ -41,7 +41,7 @@ pubs:
 - title: Shared Experience Actor-Critic for Multi-Agent Reinforcement learning
   shortcut: seac
   url: "https://arxiv.org/abs/2006.07169"
-  arxiv: "https://arxiv.org/abs/2006.07169"
+  arxiv: "2006.07169"
   code: https://github.com/uoe-agents/seac
   poster: publications/posters/seac.pdf
   slides: publications/slides/seac.pdf
