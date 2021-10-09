@@ -1,0 +1,47 @@
+# section information
+section:
+  name: News
+  id: news
+  enable: true
+  weight: 2
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+
+max_posts: 8
+
+news_posts:
+- type: tech
+  date: "Aug 29, 2021"
+  content: "Just published a big redesign of my webpage based on [GoHugo](https://gohugo.io/)!"
+
+- type: paper
+  date: "Jul 30, 2021"
+  content: "Our work, [Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks](https://openreview.net/forum?id=cIrPX-Sn5n), has been accepted at the Datasets and Benchmarks track of the Neural Information Processing Systems Conference (NeurIPS) 2021!"
+  # tweet:
+  #   id: 1421131935007576064
+  #   align: left
+  #   hide_media: false
+
+- type: paper
+  date: "Jul 20, 2021"
+  content: "Our work, [Decoupling Exploration and Exploitation in Reinforcement Learning](https://arxiv.org/abs/2107.08966), has been accepted at the Unsupervised RL (URL) workshop in the International Conference on Machine Learning (ICML) 2021!"
+  # tweet:
+  #   id: 1417419653857546240
+  #   align: left
+  #   hide_media: false
+
+- type: blog
+  date: "March 19, 2021"
+  content: "I wrote a [blog post](https://agents.inf.ed.ac.uk/blog/multiagent-learning-environments/) providing an overview of a range of multi-agent learning environments."
+
+- type: paper
+  date: "Sep 27, 2020"
+  content: "Our work, [Shared Experience Actor-Critic or Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2006.07169), has been accepted at the Neural Information Processing Systems Conference (NeurIPS) 2020!"
+  # tweet:
+  #   id: 1310174609359212546
+  #   align: left
+  #   hide_media: false
+
+- type: blog
+  date: "June 25, 2020"
+  content: "I wrote a [blog post](https://agents.inf.ed.ac.uk/blog/uk-multiagent-systems-symposium/) about the UK Multi-Agent Systems Symposium at the Alan Turing Institute in London."
