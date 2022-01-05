@@ -11,6 +11,11 @@ section:
   # hideTitle: true
 
 revs:
+- title:  AAMAS Conference 2022
+  url: "https://aamas2022-conference.auckland.ac.nz/"
+  category: Conference
+  conference: "International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS), 2022"
+
 - title:  NeurIPS 2021 Datasets and Benchmarks Track
   url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
   category: Conference

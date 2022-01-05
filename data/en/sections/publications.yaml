@@ -38,6 +38,30 @@ pubs:
   publisher: "Conference on Neural Information Processing Systems (NeurIPS), 2021 - Datasets and Benchmarks track"
   abstract: "Multi-agent deep reinforcement learning (MARL) suffers from a lack of commonly-used evaluation tasks and criteria, making comparisons between approaches difficult. In this work, we consistently evaluate and compare three different classes of MARL algorithms (independent learning, centralised multi-agent policy gradient, value decomposition) in a diverse range of cooperative multi-agent learning tasks. Our experiments serve as a reference for the expected performance of algorithms across different learning tasks, and we provide insights regarding the effectiveness of different learning approaches. We open-source EPyMARL, which extends the PyMARL codebase to include additional algorithms and allow for flexible configuration of algorithm implementation details such as parameter sharing. Finally, we open-source two environments for multi-agent research which focus on coordination under sparse rewards."
 
+- title: Robust On-Policy Data Collection for Data-Efficient Policy Evaluation
+  shortcut: data_collection
+  url: "https://arxiv.org/abs/2111.14552"
+  arxiv: "2111.14552"
+  code: https://github.com/uoe-agents/robust_onpolicy_data_collection
+  bibtex: publications/bibtex/data_collection.bib
+  category: Workshop
+  authors: "Rujie Zhong, Josiah P. Hanna, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2021
+  publisher: "Workshop on Offline Reinforcement Learning in the Conference on Neural Information Processing Systems, 2021"
+  abstract: "This paper considers how to complement offline reinforcement learning (RL) data with additional data collection for the task of policy evaluation. In policy evaluation, the task is to estimate the expected return of an evaluation policy on an environment of interest. Prior work on offline policy evaluation typically only considers a static dataset. We consider a setting where we can collect a small amount of additional data to combine with a potentially larger offline RL dataset. We show that simply running the evaluation policy -- on-policy data collection -- is sub-optimal for this setting. We then introduce two new data collection strategies for policy evaluation, both of which consider previously collected data when collecting future data so as to reduce distribution shift (or sampling error) in the entire dataset collected. Our empirical results show that compared to on-policy sampling, our strategies produce data with lower sampling error and generally lead to lower mean-squared error in policy evaluation for any total dataset size. We also show that these strategies can start from initial off-policy data, collect additional data, and then use both the initial and new data to produce low mean-squared error policy evaluation without using off-policy corrections."
+
+- title: Learning Temporally-Consistent Representations for Data-Efficient Reinforcement Learning
+  shortcut: ksl
+  url: "https://arxiv.org/abs/2110.04935"
+  arxiv: "2110.04935"
+  code: https://github.com/uoe-agents/ksl
+  bibtex: publications/bibtex/ksl.bib
+  category: Preprint
+  authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2021
+  publisher: "arXiv"
+  abstract: "Deep reinforcement learning (RL) agents that exist in high-dimensional state spaces, such as those composed of images, have interconnected learning burdens. Agents must learn an action-selection policy that completes their given task, which requires them to learn a representation of the state space that discerns between useful and useless information. The reward function is the only supervised feedback that RL agents receive, which causes a representation learning bottleneck that can manifest in poor sample efficiency. We present k-Step Latent (KSL), a new representation learning method that enforces temporal consistency of representations via a self-supervised auxiliary task wherein agents learn to recurrently predict action-conditioned representations of the state space. The state encoder learned by KSL produces low-dimensional representations that make optimization of the RL task more sample efficient. Altogether, KSL produces state-of-the-art results in both data efficiency and asymptotic performance in the popular PlaNet benchmark suite. Our analyses show that KSL produces encoders that generalize better to new tasks unseen during training, and its representations are more strongly tied to reward, are more invariant to perturbations in the state space, and move more smoothly through the temporal axis of the RL problem than other methods such as DrQ, RAD, CURL, and SAC-AE."
+
 - title: Shared Experience Actor-Critic for Multi-Agent Reinforcement learning
   shortcut: seac
   url: "https://arxiv.org/abs/2006.07169"
