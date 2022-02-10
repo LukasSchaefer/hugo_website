@@ -4,7 +4,7 @@ section:
   id: reviewing
   template: sections/reviewing.html
   enable: true
-  weight: 7
+  weight: 8
   background: dark
   showOnNavbar: false
   # Can optionally hide the title in sections

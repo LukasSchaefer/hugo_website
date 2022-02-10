@@ -11,19 +11,17 @@ section:
   # hideTitle: true
 
 pubs:
-- title: Decoupling Exploration and Exploitation in Reinforcement Learning
-  shortcut: derl
+- title: Decoupled Reinforcement Learning to Stabilise Intrinsically-Motivated Exploration
+  shortcut: derl_aamas
   url: "https://arxiv.org/abs/2107.08966"
   arxiv: "2107.08966"
-  openreview: https://openreview.net/forum?id=NwuIIOcznYt
   code: https://github.com/uoe-agents/derl
-  poster: publications/posters/derl.pdf
-  bibtex: publications/bibtex/derl.bib
-  category: Workshop; Revised Under Review
-  authors: "**Lukas Schäfer**, Filippos Christianos, Josiah Hanna, Stefano V. Albrecht"
-  year: 2021
-  publisher: "Unsupervised Reinforcement Learning (URL) Workshop in the International Conference on Machine Learning, 2021"
-  abstract: "Intrinsic rewards are commonly applied to improve exploration in reinforcement learning. However, these approaches suffer from instability caused by non-stationary reward shaping and strong dependency on hyperparameters. In this work, we propose Decoupled RL (DeRL) which trains separate policies for exploration and exploitation. DeRL can be applied with on-policy and off-policy RL algorithms. We evaluate DeRL algorithms in two sparse-reward environments with multiple types of intrinsic rewards. We show that DeRL is more robust to scaling and speed of decay of intrinsic rewards and converges to the same evaluation returns than intrinsically motivated baselines in fewer interactions."
+  bibtex: publications/bibtex/derl_aamas.bib
+  category: Conference
+  authors: "**Lukas Schäfer**, Filippos Christianos, Josiah P. Hanna, Stefano V. Albrecht"
+  year: 2022
+  publisher: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2022"
+  abstract: "Intrinsic rewards can improve exploration in reinforcement learning, but the exploration process may suffer from instability caused by non-stationary reward shaping and strong dependency on hyperparameters. In this work, we introduce Decoupled RL (DeRL) as a general framework which trains separate policies for intrinsically-motivated exploration and exploitation. Such decoupling allows DeRL to leverage the benefits of intrinsic rewards for exploration while demonstrating improved robustness and sample efficiency. We evaluate DeRL algorithms in two sparse-reward environments with multiple types of intrinsic rewards. Our results show that DeRL is more robust to varying scale and rate of decay of intrinsic rewards and converges to the same evaluation returns than intrinsically-motivated baselines in fewer interactions. Lastly, we discuss the challenge of distribution shift and show that divergence constraint regularisers can successfully minimise instability caused by divergence of exploration and exploitation policies."
 
 - title: Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks
   shortcut: marl_benchmark
@@ -37,6 +35,20 @@ pubs:
   year: 2021
   publisher: "Conference on Neural Information Processing Systems (NeurIPS), 2021 - Datasets and Benchmarks track"
   abstract: "Multi-agent deep reinforcement learning (MARL) suffers from a lack of commonly-used evaluation tasks and criteria, making comparisons between approaches difficult. In this work, we consistently evaluate and compare three different classes of MARL algorithms (independent learning, centralised multi-agent policy gradient, value decomposition) in a diverse range of cooperative multi-agent learning tasks. Our experiments serve as a reference for the expected performance of algorithms across different learning tasks, and we provide insights regarding the effectiveness of different learning approaches. We open-source EPyMARL, which extends the PyMARL codebase to include additional algorithms and allow for flexible configuration of algorithm implementation details such as parameter sharing. Finally, we open-source two environments for multi-agent research which focus on coordination under sparse rewards."
+
+- title: Decoupling Exploration and Exploitation in Reinforcement Learning
+  shortcut: derl_url
+  url: "https://arxiv.org/abs/2107.08966"
+  arxiv: "2107.08966"
+  openreview: https://openreview.net/forum?id=NwuIIOcznYt
+  code: https://github.com/uoe-agents/derl
+  poster: publications/posters/derl_url.pdf
+  bibtex: publications/bibtex/derl_url.bib
+  category: Workshop
+  authors: "**Lukas Schäfer**, Filippos Christianos, Josiah P. Hanna, Stefano V. Albrecht"
+  year: 2021
+  publisher: "Unsupervised Reinforcement Learning (URL) Workshop in the International Conference on Machine Learning, 2021"
+  abstract: "Intrinsic rewards are commonly applied to improve exploration in reinforcement learning. However, these approaches suffer from instability caused by non-stationary reward shaping and strong dependency on hyperparameters. In this work, we propose Decoupled RL (DeRL) which trains separate policies for exploration and exploitation. DeRL can be applied with on-policy and off-policy RL algorithms. We evaluate DeRL algorithms in two sparse-reward environments with multiple types of intrinsic rewards. We show that DeRL is more robust to scaling and speed of decay of intrinsic rewards and converges to the same evaluation returns than intrinsically motivated baselines in fewer interactions."
 
 - title: Robust On-Policy Data Collection for Data-Efficient Policy Evaluation
   shortcut: data_collection
@@ -56,7 +68,7 @@ pubs:
   arxiv: "2110.04935"
   code: https://github.com/uoe-agents/ksl
   bibtex: publications/bibtex/ksl.bib
-  category: Preprint
+  category: Work in Progress
   authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
   year: 2021
   publisher: "arXiv"

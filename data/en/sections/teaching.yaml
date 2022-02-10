@@ -4,7 +4,7 @@ section:
   id: teaching
   template: sections/teaching.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 8
+  weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -21,6 +21,16 @@ positions:
     - Designing RL project covering wide range of topics including dynamic programming, single- and multi-agent RL as well as deep RL
     - Marking project and exam for reinforcement learning course
     - Advising students on various challenges regarding lecture material and content
+
+- title: "M.Sc. Student Supervision"
+  where: "School of Informatics, University of Edinburgh"
+  start: "Feb 2021"
+  # if not set use Present
+  end: "Aug 2021"
+  header: "Co-supervised final Masters students' projects at the University of Einburgh"
+  responsibilities:
+    - Co-supervised two M.Sc. students through project proposal, refinement and execution towards final thesis
+    - Assisted M.Sc. student from their thesis towards a successful workshop submission at NeurIPS 2021
 
 - title: "Lecturer and Coach"
   where: "Mathematics Preparation Course, Saarland University"
