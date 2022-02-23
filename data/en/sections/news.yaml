@@ -10,6 +10,14 @@ section:
 max_posts: 8
 
 news_posts:
+- type: paper
+  date: "Feb 10, 2022"
+  content: "My submission on Task Generalisation in Multi-Agent Reinforcement Learning has been accepted in the Doctoral Consortium of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2022!"
+
+- type: paper
+  date: "Dec 19, 2021"
+  content: "Our work, [Decoupled Reinforcement Learning to Stabilise Intrinsically-Motivated Exploration](https://arxiv.org/abs/2107.08966), has been accepted at International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2022!"
+
 - type: tech
   date: "Aug 29, 2021"
   content: "Just published a big redesign of my webpage based on [GoHugo](https://gohugo.io/)!"
