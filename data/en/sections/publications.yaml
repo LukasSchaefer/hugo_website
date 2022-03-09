@@ -11,6 +11,15 @@ section:
   # hideTitle: true
 
 pubs:
+- title: Task Generalisation in Multi-Agent Reinforcement Learning
+  shortcut: aamas_dc
+  bibtex: publications/bibtex/aamas_dc.bib
+  category: Doctoral Consortium
+  authors: "**Lukas Schäfer**"
+  year: 2022
+  publisher: "Doctoral Consortium at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2022"
+  abstract: "Multi-agent reinforcement learning agents are typically trained in a single environment. As a consequence, they overfit to the training environment which results in sensitivity to perturbations and inability to generalise to similar environments. For multi-agent reinforcement learning approaches to be applicable in real-world scenarios, generalisation and robustness need to be addressed. However, unlike in supervised learning, generalisation lacks a clear definition in multi-agent reinforcement learning. We discuss the problem of task generalisation and demonstrate the difficulty of zero-shot generalisation and finetuning at the example of multi-robot warehouse coordination with preliminary results. Lastly, we discuss promising directions of research working towards generalisation of multi-agent reinforcement learning."
+
 - title: Decoupled Reinforcement Learning to Stabilise Intrinsically-Motivated Exploration
   shortcut: derl_aamas
   url: "https://arxiv.org/abs/2107.08966"
