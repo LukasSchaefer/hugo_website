@@ -27,7 +27,7 @@ pubs:
   arxiv: "2107.08966"
   code: https://github.com/uoe-agents/derl
   bibtex: publications/bibtex/derl_aamas.bib
-  category: Conference
+  category: Conference - Oral
   authors: "**Lukas Schäfer**, Filippos Christianos, Josiah P. Hanna, Stefano V. Albrecht"
   year: 2022
   publisher: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2022"
@@ -40,7 +40,7 @@ pubs:
   openreview: "https://openreview.net/forum?id=cIrPX-Sn5n"
   code: https://github.com/uoe-agents/epymarl
   bibtex: publications/bibtex/marl_benchmark.bib
-  category: Conference
+  category: Conference - Poster
   authors: "Georgios Papoudakis, Filippos Christianos, **Lukas Schäfer**, Stefano V. Albrecht"
   year: 2021
   publisher: "Conference on Neural Information Processing Systems (NeurIPS), 2021 - Datasets and Benchmarks track"
@@ -54,7 +54,7 @@ pubs:
   code: https://github.com/uoe-agents/derl
   poster: publications/posters/derl_url.pdf
   bibtex: publications/bibtex/derl_url.bib
-  category: Workshop
+  category: Workshop - Poster
   authors: "**Lukas Schäfer**, Filippos Christianos, Josiah P. Hanna, Stefano V. Albrecht"
   year: 2021
   publisher: "Unsupervised Reinforcement Learning (URL) Workshop in the International Conference on Machine Learning, 2021"
@@ -66,7 +66,7 @@ pubs:
   arxiv: "2111.14552"
   code: https://github.com/uoe-agents/robust_onpolicy_data_collection
   bibtex: publications/bibtex/data_collection.bib
-  category: Workshop
+  category: Workshop - Poster
   authors: "Rujie Zhong, Josiah P. Hanna, **Lukas Schäfer**, Stefano V. Albrecht"
   year: 2021
   publisher: "Workshop on Offline Reinforcement Learning in the Conference on Neural Information Processing Systems, 2021"
@@ -92,7 +92,7 @@ pubs:
   poster: publications/posters/seac.pdf
   slides: publications/slides/seac.pdf
   bibtex: publications/bibtex/seac.bib
-  category: Conference
+  category: Conference - Poster
   authors: "Filippos Christianos, **Lukas Schäfer**, Stefano V. Albrecht"
   year: 2020
   publisher: "Conference on Neural Information Processing Systems (NeurIPS), 2020"
