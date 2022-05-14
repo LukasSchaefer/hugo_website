@@ -13,7 +13,7 @@ section:
 pubs:
 - title: Task Generalisation in Multi-Agent Reinforcement Learning
   shortcut: aamas_dc
-  url: "https://ifaamas.org/Proceedings/aamas2022/pdfs/p1863.pdf"
+  url: "https://dl.acm.org/doi/abs/10.5555/3535850.3536132"
   bibtex: publications/bibtex/aamas_dc.bib
   category: Doctoral Consortium
   authors: "**Lukas Schäfer**"
