@@ -11,6 +11,18 @@ section:
   # hideTitle: true
 
 pubs:
+- title: Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning
+  shortcut: mate
+  url: "https://arxiv.org/abs/2207.02249"
+  arxiv: "2207.02249"
+  code: https://github.com/uoe-agents/mate
+  bibtex: publications/bibtex/mate.bib
+  category: Preprint
+  authors: "**Lukas Schäfer**, Filippos Christianos, Amos Storkey, Stefano V. Albrecht"
+  year: 2022
+  publisher: "arXiv"
+  abstract: "Successful deployment of multi-agent reinforcement learning often requires agents to adapt their behaviour. In this work, we discuss the problem of teamwork adaptation in which a team of agents needs to adapt their policies to solve novel tasks with limited fine-tuning. Motivated by the intuition that agents need to be able to identify and distinguish tasks in order to adapt their behaviour to the current task, we propose to learn multi-agent task embeddings (MATE). These task embeddings are trained using an encoder-decoder architecture optimised for reconstruction of the transition and reward functions which uniquely identify tasks. We show that a team of agents is able to adapt to novel tasks when provided with task embeddings. We propose three MATE training paradigms: independent MATE, centralised MATE, and mixed MATE which vary in the information used for the task encoding. We show that the embeddings learned by MATE identify tasks and provide useful information which agents leverage during adaptation to novel tasks."
+
 - title: Task Generalisation in Multi-Agent Reinforcement Learning
   shortcut: aamas_dc
   url: "https://dl.acm.org/doi/abs/10.5555/3535850.3536132"
@@ -78,7 +90,7 @@ pubs:
   arxiv: "2110.04935"
   code: https://github.com/uoe-agents/ksl
   bibtex: publications/bibtex/ksl.bib
-  category: Work in Progress
+  category: Preprint
   authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
   year: 2021
   publisher: "arXiv"

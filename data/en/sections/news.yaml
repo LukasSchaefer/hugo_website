@@ -11,6 +11,10 @@ max_posts: 8
 
 news_posts:
 - type: paper
+  date: "Jul 04, 2022"
+  content: "Excited to start a research internship at Huawei Noah's Ark Lab in London (multi-agent team) with David Mguni!"
+
+- type: paper
   date: "Feb 10, 2022"
   content: "My submission on Task Generalisation in Multi-Agent Reinforcement Learning has been accepted in the Doctoral Consortium of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2022!"
 
