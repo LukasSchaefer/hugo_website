@@ -45,6 +45,18 @@ pubs:
   publisher: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2022"
   abstract: "Intrinsic rewards can improve exploration in reinforcement learning, but the exploration process may suffer from instability caused by non-stationary reward shaping and strong dependency on hyperparameters. In this work, we introduce Decoupled RL (DeRL) as a general framework which trains separate policies for intrinsically-motivated exploration and exploitation. Such decoupling allows DeRL to leverage the benefits of intrinsic rewards for exploration while demonstrating improved robustness and sample efficiency. We evaluate DeRL algorithms in two sparse-reward environments with multiple types of intrinsic rewards. Our results show that DeRL is more robust to varying scale and rate of decay of intrinsic rewards and converges to the same evaluation returns than intrinsically-motivated baselines in fewer interactions. Lastly, we discuss the challenge of distribution shift and show that divergence constraint regularisers can successfully minimise instability caused by divergence of exploration and exploitation policies."
 
+- title: Learning Representations for Control with Hierarchical Forward Models
+  shortcut: hksl
+  url: "https://arxiv.org/abs/2206.11396"
+  arxiv: "2206.11396"
+  code: https://github.com/trevormcinroe/hksl
+  bibtex: publications/bibtex/hksl.bib
+  category: Preprint
+  authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2022
+  publisher: "arXiv"
+  abstract: "Learning control from pixels is difficult for reinforcement learning (RL) agents because representation learning and policy learning are intertwined. Previous approaches remedy this issue with auxiliary representation learning tasks, but they either do not consider the temporal aspect of the problem or only consider single-step transitions. Instead, we propose Hierarchical k-Step Latent (HKSL), an auxiliary task that learns representations via a hierarchy of forward models that operate at varying magnitudes of step skipping while also learning to communicate between levels in the hierarchy. We evaluate HKSL in a suite of 30 robotic control tasks and find that HKSL either reaches higher episodic returns or converges to maximum performance more quickly than several current baselines. Also, we find that levels in HKSL's hierarchy can learn to specialize in long- or short-term consequences of agent actions, thereby providing the downstream control policy with more informative representations. Finally, we determine that communication channels between hierarchy levels organize information based on both sides of the communication process, which improves sample efficiency."
+
 - title: Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks
   shortcut: marl_benchmark
   url: "https://arxiv.org/abs/2006.07869"
