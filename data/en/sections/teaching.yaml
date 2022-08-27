@@ -15,7 +15,7 @@ positions:
   start: "Oct 2019"
   # if not set use Present
   # end: 
-  header: "Teaching assistant, demonstrator and marker for the Reinforcement Learning lecture at the University of Einburgh under Dr. Stefano V. Albrecht"
+  header: "Teaching assistant, demonstrator and marker for three iterations of the Reinforcement Learning lecture at the University of Einburgh under Dr. Stefano V. Albrecht"
   responsibilities:
     - Holding lectures on implementation of RL systems and Deep RL
     - Designing RL project covering wide range of topics including dynamic programming, single- and multi-agent RL as well as deep RL

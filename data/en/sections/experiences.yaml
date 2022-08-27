@@ -11,6 +11,20 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Huawei Noah's Ark Lab
+    url: "https://www.noahlab.com.hk/#/home"
+    location: London
+    # company overview
+    overview: The Noah’s Ark Lab is the AI research center for Huawei Technologies, working towards significant contributions to both the company and society by innovating in artificial intelligence, data mining and related fields.
+  positions:
+  - designation: Research Scientist Intern
+    start: Jul 2022
+    # end: Nov 2022
+    responsibilities:
+    - Working with the RL and multi-agent team on multi-agent reinforcement learning exploration under the supervision of David Mguni.
+
+
+- company:
     name: Dematic
     url: "https://www.dematic.com/en-gb/"
     location: Remote

@@ -11,17 +11,12 @@ section:
   # hideTitle: true
 
 revs:
-- title:  AAMAS Conference 2022
-  url: "https://aamas2022-conference.auckland.ac.nz/"
-  category: Conference
-  conference: "International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS), 2022"
+- title: Conferences
+  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+  # category: Conference
+  conference: "NeurIPS 2022, NeurIPS 2021 and 2022 Datasets and Benchmark Track, ICML 2022, AAMAS 2022"
 
-- title:  NeurIPS 2021 Datasets and Benchmarks Track
-  url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
-  category: Conference
-  conference: "Conference on Neural Information Processing Systems (NeurIPS), 2021"
-
-- title: "The pre-registration experiment: an alternative publication model for machine learning research"
-  url: "https://preregister.science/"
-  category: Workshop
-  conference: "Conference on Neural Information Processing Systems (NeurIPS), 2020"
+- title:  Workshops
+  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+  # category: Conference
+  conference: "Pre-registration experiment workshop at NeurIPS 2020"

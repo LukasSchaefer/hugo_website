@@ -11,12 +11,20 @@ max_posts: 8
 
 news_posts:
 - type: announcement
+  date: "Aug 27, 2022"
+  content: "Excited to announce that I was selected to attend the upcoming 9th [Heidelberg Laureate Forum](https://www.heidelberg-laureate-forum.org/)!"
+
+- type: paper
+  date: "Jul 05, 2022"
+  content: "Made our new preprint on [Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2207.02249) available on arXiv."
+
+- type: announcement
   date: "Jul 04, 2022"
   content: "Excited to start a research internship at Huawei Noah's Ark Lab in London (multi-agent team) with David Mguni!"
 
 - type: paper
   date: "Feb 10, 2022"
-  content: "My submission on Task Generalisation in Multi-Agent Reinforcement Learning has been accepted in the Doctoral Consortium of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2022!"
+  content: "My submission on [Task Generalisation in Multi-Agent Reinforcement Learning](https://dl.acm.org/doi/abs/10.5555/3535850.3536132) has been accepted in the Doctoral Consortium of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2022!"
 
 - type: paper
   date: "Dec 19, 2021"
