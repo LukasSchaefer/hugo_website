@@ -11,6 +11,19 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Heidelberg Laureate Forum
+    url: "https://www.heidelberg-laureate-forum.org/"
+    location: Heidelberg
+    # company overview
+    overview: "The Heidelberg Laureate Forum brings together the most exceptional mathematicians and computer scientists of their generations. Each year, the recipients of the most prestigious awards in mathematics and computer science, the Abel Prize, ACM A.M. Turing Award, ACM Prize in Computing, Fields Medal, IMU Abacus Medal and Nevanlinna Prize, meet 200 selected young researchers from all over the world. Participants spend a week interacting and networking in a relaxed atmosphere designed to encourage scientific exchange."
+  positions:
+  - designation: Young Research Attendee
+    start: Sep 2022
+    end: Sep 2022
+    # responsibilities:
+    # - Working with the RL and multi-agent team on multi-agent reinforcement learning exploration under the supervision of David Mguni.
+
+- company:
     name: Huawei Noah's Ark Lab
     url: "https://www.noahlab.com.hk/#/home"
     location: London
