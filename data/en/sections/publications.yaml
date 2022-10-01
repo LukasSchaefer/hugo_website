@@ -11,6 +11,18 @@ section:
   # hideTitle: true
 
 pubs:
+- title: Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning
+  shortcut: mate
+  url: "https://arxiv.org/abs/2207.02249"
+  arxiv: "2207.02249"
+  code: https://github.com/uoe-agents/mate
+  bibtex: publications/bibtex/mate.bib
+  category: Preprint
+  authors: "**Lukas Schäfer**, Filippos Christianos, Amos Storkey, Stefano V. Albrecht"
+  year: 2022
+  publisher: "arXiv"
+  abstract: "Successful deployment of multi-agent reinforcement learning often requires agents to adapt their behaviour. In this work, we discuss the problem of teamwork adaptation in which a team of agents needs to adapt their policies to solve novel tasks with limited fine-tuning. Motivated by the intuition that agents need to be able to identify and distinguish tasks in order to adapt their behaviour to the current task, we propose to learn multi-agent task embeddings (MATE). These task embeddings are trained using an encoder-decoder architecture optimised for reconstruction of the transition and reward functions which uniquely identify tasks. We show that a team of agents is able to adapt to novel tasks when provided with task embeddings. We propose three MATE training paradigms: independent MATE, centralised MATE, and mixed MATE which vary in the information used for the task encoding. We show that the embeddings learned by MATE identify tasks and provide useful information which agents leverage during adaptation to novel tasks."
+
 - title: Robust On-Policy Data Collection for Data-Efficient Policy Evaluation
   shortcut: data_collection
   url: "https://nips.cc/Conferences/2022/Schedule?showEvent=53733"
@@ -47,6 +59,29 @@ pubs:
   publisher: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2022"
   abstract: "Intrinsic rewards can improve exploration in reinforcement learning, but the exploration process may suffer from instability caused by non-stationary reward shaping and strong dependency on hyperparameters. In this work, we introduce Decoupled RL (DeRL) as a general framework which trains separate policies for intrinsically-motivated exploration and exploitation. Such decoupling allows DeRL to leverage the benefits of intrinsic rewards for exploration while demonstrating improved robustness and sample efficiency. We evaluate DeRL algorithms in two sparse-reward environments with multiple types of intrinsic rewards. Our results show that DeRL is more robust to varying scale and rate of decay of intrinsic rewards and converges to the same evaluation returns than intrinsically-motivated baselines in fewer interactions. Lastly, we discuss the challenge of distribution shift and show that divergence constraint regularisers can successfully minimise instability caused by divergence of exploration and exploitation policies."
 
+- title: Deep reinforcement learning for multi-agent interaction
+  shortcut: agents_group
+  url: "https://arxiv.org/abs/2208.01769"
+  arxiv: "2208.01769"
+  bibtex: publications/bibtex/agents_group.bib
+  category: Journal
+  authors: "Ibrahim H. Ahmed, Cillian Brewitt, Ignacio Carlucho, Filippos Christianos, Mhairi Dunion, Elliot Fosong, Samuel Garcin, Shangmin Guo, Balint Gyevnar, Trevor McInroe, Georgios Papoudakis, Arrasy Rahman, **Lukas Schäfer**, Massimiliano Tamborski, Giuseppe Vecchio, Cheng Wang, Stefano V. Albrecht"
+  year: 2022
+  publisher: "AI Communications Special Issue on Multi-Agent Systems Research in the UK"
+  abstract: "The development of autonomous agents which can interact with other agents to accomplish a given task is a core area of research in artificial intelligence and machine learning. Towards this goal, the Autonomous Agents Research Group develops novel machine learning algorithms for autonomous systems control, with a specific focus on deep reinforcement learning and multi-agent reinforcement learning. Research problems include scalable learning of coordinated agent policies and inter-agent communication; reasoning about the behaviours, goals, and composition of other agents from limited observations; and sample-efficient learning based on intrinsic motivation, curriculum learning, causal inference, and representation learning. This article provides a broad overview of the ongoing research portfolio of the group and discusses open problems for future directions."
+
+- title: Learning Representations for Control with Hierarchical Forward Models
+  shortcut: hksl
+  url: "https://arxiv.org/abs/2206.11396"
+  arxiv: "2206.11396"
+  code: https://github.com/trevormcinroe/hksl
+  bibtex: publications/bibtex/hksl.bib
+  category: Preprint
+  authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2022
+  publisher: "arXiv"
+  abstract: "Learning control from pixels is difficult for reinforcement learning (RL) agents because representation learning and policy learning are intertwined. Previous approaches remedy this issue with auxiliary representation learning tasks, but they either do not consider the temporal aspect of the problem or only consider single-step transitions. Instead, we propose Hierarchical k-Step Latent (HKSL), an auxiliary task that learns representations via a hierarchy of forward models that operate at varying magnitudes of step skipping while also learning to communicate between levels in the hierarchy. We evaluate HKSL in a suite of 30 robotic control tasks and find that HKSL either reaches higher episodic returns or converges to maximum performance more quickly than several current baselines. Also, we find that levels in HKSL's hierarchy can learn to specialize in long- or short-term consequences of agent actions, thereby providing the downstream control policy with more informative representations. Finally, we determine that communication channels between hierarchy levels organize information based on both sides of the communication process, which improves sample efficiency."
+
 - title: Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks
   shortcut: marl_benchmark
   url: "https://arxiv.org/abs/2006.07869"
@@ -75,16 +110,39 @@ pubs:
   abstract: "Intrinsic rewards are commonly applied to improve exploration in reinforcement learning. However, these approaches suffer from instability caused by non-stationary reward shaping and strong dependency on hyperparameters. In this work, we propose Decoupled RL (DeRL) which trains separate policies for exploration and exploitation. DeRL can be applied with on-policy and off-policy RL algorithms. We evaluate DeRL algorithms in two sparse-reward environments with multiple types of intrinsic rewards. We show that DeRL is more robust to scaling and speed of decay of intrinsic rewards and converges to the same evaluation returns than intrinsically motivated baselines in fewer interactions."
 
 - title: Robust On-Policy Data Collection for Data-Efficient Policy Evaluation
-  shortcut: data_collection
+  shortcut: data_collection_workshop
   url: "https://arxiv.org/abs/2111.14552"
   arxiv: "2111.14552"
   code: https://github.com/uoe-agents/robust_onpolicy_data_collection
-  bibtex: publications/bibtex/data_collection.bib
+  bibtex: publications/bibtex/data_collection_workshop.bib
   category: Workshop - Poster
   authors: "Rujie Zhong, Josiah P. Hanna, **Lukas Schäfer**, Stefano V. Albrecht"
   year: 2021
   publisher: "Workshop on Offline Reinforcement Learning in the Conference on Neural Information Processing Systems, 2021"
   abstract: "This paper considers how to complement offline reinforcement learning (RL) data with additional data collection for the task of policy evaluation. In policy evaluation, the task is to estimate the expected return of an evaluation policy on an environment of interest. Prior work on offline policy evaluation typically only considers a static dataset. We consider a setting where we can collect a small amount of additional data to combine with a potentially larger offline RL dataset. We show that simply running the evaluation policy -- on-policy data collection -- is sub-optimal for this setting. We then introduce two new data collection strategies for policy evaluation, both of which consider previously collected data when collecting future data so as to reduce distribution shift (or sampling error) in the entire dataset collected. Our empirical results show that compared to on-policy sampling, our strategies produce data with lower sampling error and generally lead to lower mean-squared error in policy evaluation for any total dataset size. We also show that these strategies can start from initial off-policy data, collect additional data, and then use both the initial and new data to produce low mean-squared error policy evaluation without using off-policy corrections."
+
+- title: Comparative evaluation of cooperative multi-agent deep reinforcement learning algorithms
+  shortcut: marl_benchmark_workshop
+  url: "https://arxiv.org/abs/2006.07869"
+  arxiv: "2006.07869"
+  bibtex: publications/bibtex/marl_benchmark_workshop.bib
+  category: Workshop - Poster
+  authors: "Georgios Papoudakis, Filippos Christianos, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2021
+  publisher: "Workshop on Adaptive and Learning Agents in the International Conference on Autonomous Agents and Multiagent Systems, 2021"
+  abstract: "Multi-agent deep reinforcement learning (MARL) suffers from a lack of commonly-used evaluation tasks and criteria, making comparisons between approaches difficult. In this work, we evaluate and compare three different classes of MARL algorithms (independent learning, centralised multi-agent policy gradient, and value decomposition) in a diverse range of fully-cooperative multi-agent learning tasks. Our experiments can serve as a reference for the expected performance of algorithms across different learning tasks. We also provide further insight about (1) when independent learning might be surprisingly effective despite non-stationarity, (2) when centralised training should (and shouldn’t) be applied and (3) which benefits value decomposition can bring."
+
+- title: Learning Temporally-Consistent Representations for Data-Efficient Reinforcement Learning
+  shortcut: ksl
+  url: "https://arxiv.org/abs/2110.04935"
+  arxiv: "2110.04935"
+  code: https://github.com/uoe-agents/ksl
+  bibtex: publications/bibtex/ksl.bib
+  category: Preprint
+  authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2021
+  publisher: "arXiv"
+  abstract: "Deep reinforcement learning (RL) agents that exist in high-dimensional state spaces, such as those composed of images, have interconnected learning burdens. Agents must learn an action-selection policy that completes their given task, which requires them to learn a representation of the state space that discerns between useful and useless information. The reward function is the only supervised feedback that RL agents receive, which causes a representation learning bottleneck that can manifest in poor sample efficiency. We present k-Step Latent (KSL), a new representation learning method that enforces temporal consistency of representations via a self-supervised auxiliary task wherein agents learn to recurrently predict action-conditioned representations of the state space. The state encoder learned by KSL produces low-dimensional representations that make optimization of the RL task more sample efficient. Altogether, KSL produces state-of-the-art results in both data efficiency and asymptotic performance in the popular PlaNet benchmark suite. Our analyses show that KSL produces encoders that generalize better to new tasks unseen during training, and its representations are more strongly tied to reward, are more invariant to perturbations in the state space, and move more smoothly through the temporal axis of the RL problem than other methods such as DrQ, RAD, CURL, and SAC-AE."
 
 - title: Shared Experience Actor-Critic for Multi-Agent Reinforcement learning
   shortcut: seac
@@ -99,40 +157,3 @@ pubs:
   year: 2020
   publisher: "Conference on Neural Information Processing Systems (NeurIPS), 2020"
   abstract: "Exploration in multi-agent reinforcement learning is a challenging problem, especially in environments with sparse rewards. We propose a general method for efficient exploration by sharing experience amongst agents. Our proposed algorithm, called Shared Experience Actor-Critic (SEAC), applies experience sharing in an actor-critic framework. We evaluate SEAC in a collection of sparse-reward multi-agent environments and find that it consistently outperforms two baselines and two state-of-the-art algorithms by learning in fewer steps and converging to higher returns. In some harder environments, experience sharing makes the difference between learning to solve the task and not learning at all."
-
-- title: Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning
-  shortcut: mate
-  url: "https://arxiv.org/abs/2207.02249"
-  arxiv: "2207.02249"
-  code: https://github.com/uoe-agents/mate
-  bibtex: publications/bibtex/mate.bib
-  category: Preprint
-  authors: "**Lukas Schäfer**, Filippos Christianos, Amos Storkey, Stefano V. Albrecht"
-  year: 2022
-  publisher: "arXiv"
-  abstract: "Successful deployment of multi-agent reinforcement learning often requires agents to adapt their behaviour. In this work, we discuss the problem of teamwork adaptation in which a team of agents needs to adapt their policies to solve novel tasks with limited fine-tuning. Motivated by the intuition that agents need to be able to identify and distinguish tasks in order to adapt their behaviour to the current task, we propose to learn multi-agent task embeddings (MATE). These task embeddings are trained using an encoder-decoder architecture optimised for reconstruction of the transition and reward functions which uniquely identify tasks. We show that a team of agents is able to adapt to novel tasks when provided with task embeddings. We propose three MATE training paradigms: independent MATE, centralised MATE, and mixed MATE which vary in the information used for the task encoding. We show that the embeddings learned by MATE identify tasks and provide useful information which agents leverage during adaptation to novel tasks."
-
-- title: Learning Representations for Control with Hierarchical Forward Models
-  shortcut: hksl
-  url: "https://arxiv.org/abs/2206.11396"
-  arxiv: "2206.11396"
-  code: https://github.com/trevormcinroe/hksl
-  bibtex: publications/bibtex/hksl.bib
-  category: Preprint
-  authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
-  year: 2022
-  publisher: "arXiv"
-  abstract: "Learning control from pixels is difficult for reinforcement learning (RL) agents because representation learning and policy learning are intertwined. Previous approaches remedy this issue with auxiliary representation learning tasks, but they either do not consider the temporal aspect of the problem or only consider single-step transitions. Instead, we propose Hierarchical k-Step Latent (HKSL), an auxiliary task that learns representations via a hierarchy of forward models that operate at varying magnitudes of step skipping while also learning to communicate between levels in the hierarchy. We evaluate HKSL in a suite of 30 robotic control tasks and find that HKSL either reaches higher episodic returns or converges to maximum performance more quickly than several current baselines. Also, we find that levels in HKSL's hierarchy can learn to specialize in long- or short-term consequences of agent actions, thereby providing the downstream control policy with more informative representations. Finally, we determine that communication channels between hierarchy levels organize information based on both sides of the communication process, which improves sample efficiency."
-
-- title: Learning Temporally-Consistent Representations for Data-Efficient Reinforcement Learning
-  shortcut: ksl
-  url: "https://arxiv.org/abs/2110.04935"
-  arxiv: "2110.04935"
-  code: https://github.com/uoe-agents/ksl
-  bibtex: publications/bibtex/ksl.bib
-  category: Preprint
-  authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
-  year: 2021
-  publisher: "arXiv"
-  abstract: "Deep reinforcement learning (RL) agents that exist in high-dimensional state spaces, such as those composed of images, have interconnected learning burdens. Agents must learn an action-selection policy that completes their given task, which requires them to learn a representation of the state space that discerns between useful and useless information. The reward function is the only supervised feedback that RL agents receive, which causes a representation learning bottleneck that can manifest in poor sample efficiency. We present k-Step Latent (KSL), a new representation learning method that enforces temporal consistency of representations via a self-supervised auxiliary task wherein agents learn to recurrently predict action-conditioned representations of the state space. The state encoder learned by KSL produces low-dimensional representations that make optimization of the RL task more sample efficient. Altogether, KSL produces state-of-the-art results in both data efficiency and asymptotic performance in the popular PlaNet benchmark suite. Our analyses show that KSL produces encoders that generalize better to new tasks unseen during training, and its representations are more strongly tied to reward, are more invariant to perturbations in the state space, and move more smoothly through the temporal axis of the RL problem than other methods such as DrQ, RAD, CURL, and SAC-AE."
-
