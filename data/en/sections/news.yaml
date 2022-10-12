@@ -12,7 +12,7 @@ max_posts: 8
 news_posts:
 - type: paper
   date: "Sep 14, 2022"
-  content: "Our work, [Robust On-Policy Sampling for Data-Efficient Policy Evaluation](https://nips.cc/Conferences/2022/Schedule?showEvent=53733), has been accepted at the Neural Information Processing Systems Conference (NeurIPS) 2022!"
+  content: "Our work, [Robust On-Policy Sampling for Data-Efficient Policy Evaluation in Reinforcement Learning](https://arxiv.org/abs/2111.14552), has been accepted at the Neural Information Processing Systems Conference (NeurIPS) 2022!"
 
 - type: announcement
   date: "Aug 27, 2022"
