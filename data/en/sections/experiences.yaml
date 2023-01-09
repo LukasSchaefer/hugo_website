@@ -32,7 +32,7 @@ experiences:
   positions:
   - designation: Research Scientist Intern
     start: Jul 2022
-    # end: Nov 2022
+    end: Dec 2022
     responsibilities:
     - Working with the RL and multi-agent team on multi-agent reinforcement learning exploration under the supervision of David Mguni.
 

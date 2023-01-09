@@ -14,11 +14,11 @@ company:
     url: https://www.ed.ac.uk/
 
 summary: |
-    I am a 25-year-old Data Science and Artificial Intelligence PhD student from Germany working on Multi-Agent Reinforcement learning at the University of Edinburgh, where I am supervised by [Stefano Albrecht](http://svalbrecht.de/) and [Amos Storkey](https://homepages.inf.ed.ac.uk/amos/).
-
-    Currently, I am doing a research internship at Huawei Noah's Ark Lab (multi-agent team) with David Mguni. Previously, I interned at Dematic where I researched and developed AI solutions for large-scale warehouse automation.
+    I am a 25-year-old Data Science and Artificial Intelligence PhD student from Germany working on multi-agent reinforcement learning at the University of Edinburgh, where I am supervised by [Stefano Albrecht](http://svalbrecht.de/) and [Amos Storkey](https://homepages.inf.ed.ac.uk/amos/).
 
     My research focuses on the challenges of generalisation and sample efficiency: how can multiple agents learn effective behaviour with less data and be able to learn robust, re-usable skills which transfer to new environments.
+
+    Previously, I interned at Dematic and Huawei Noah's Ark Lab. At Dematic, I researched and developed AI solutions for large-scale warehouse automation. At Huawei, I was part of the multi-agent team researching novel exploration techniques for multi-agent reinforcement learning under the supervision of David Mguni.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
