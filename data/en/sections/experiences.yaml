@@ -11,6 +11,20 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Microsoft Research
+    url: "https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/"
+    location: Cambridge
+    # company overview
+    # overview: At Microsoft Research in Cambridge, our mission is to transform the world through deep research. We do this by working together in an interdisciplinary way, in close collaboration with the broader Microsoft business, to ensure that we are designing robust and trusted technologies to empower millions of people worldwide.
+  positions:
+  - designation: Research Scientist Intern
+    start: Apr 2023
+    # end: Jun 2023
+    responsibilities:
+    - Researching multi-agent reinforcement learning for video games under the supervision of Sam Devlin.
+
+
+- company:
     name: Heidelberg Laureate Forum
     url: "https://www.heidelberg-laureate-forum.org/"
     location: Heidelberg

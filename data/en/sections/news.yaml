@@ -10,6 +10,10 @@ section:
 max_posts: 8
 
 news_posts:
+- type: announcement
+  date: "Apr 03, 2023"
+  content: "I'm very excited to start a research internship with the Game Intelligence lab at Microsoft Research Cambridge!"
+
 - type: paper
   date: "Sep 14, 2022"
   content: "Our work, [Robust On-Policy Sampling for Data-Efficient Policy Evaluation in Reinforcement Learning](https://arxiv.org/abs/2111.14552), has been accepted at the Neural Information Processing Systems Conference (NeurIPS) 2022!"
@@ -24,7 +28,7 @@ news_posts:
 
 - type: announcement
   date: "Jul 04, 2022"
-  content: "Excited to start a research internship at Huawei Noah's Ark Lab in London (multi-agent team) with David Mguni!"
+  content: "I'm very excited to start a research internship at Huawei Noah's Ark Lab in London (multi-agent team) with David Mguni!"
 
 - type: paper
   date: "Feb 10, 2022"
