@@ -10,6 +10,11 @@ section:
 max_posts: 8
 
 news_posts:
+- type: paper
+  date: "Apr 14, 2023"
+  content: "Our work, [Ensemble Value Functions for Efficient Exploration in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2302.03439), will be presented at the Adaptive and Learning Agents (ALA) Workshop at the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2023!"
+
+
 - type: announcement
   date: "Apr 03, 2023"
   content: "I'm very excited to start a research internship with the Game Intelligence lab at Microsoft Research Cambridge!"
