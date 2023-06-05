@@ -11,6 +11,17 @@ section:
   # hideTitle: true
 
 pubs:
+- title: "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches"
+  shortcut: marl_book
+  url: "https://www.marl-book.com/"
+  website: "https://www.marl-book.com/"
+  slides: publications/slides/marl_book_slide.pdf
+  bibtex: publications/bibtex/marl_book.bib
+  category: Textbook
+  authors: "Stefano V. Albrecht, Filippos Christianos, **Lukas Schäfer** (equal authorship)"
+  year: 2024
+  publisher: "Pre-print, to be published by MIT Press (scheduled for fall 2024)"
+
 - title: Ensemble Value Functions for Efficient Exploration in Multi-Agent Reinforcement Learning
   shortcut: emax
   url: "https://arxiv.org/abs/2302.03439"
