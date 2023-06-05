@@ -16,6 +16,8 @@ pubs:
   url: "https://arxiv.org/abs/2302.03439"
   arxiv: "2302.03439"
   bibtex: publications/bibtex/emax.bib
+  poster: publications/posters/emax_aamas_ala_poster.pdf
+  slides: publications/slides/emax_aamas_ala_slides.pdf
   category: Workshop - Poster
   authors: "**Lukas Schäfer**, Oliver Slumbers, Stephen McAleer, Yali Du, Stefano V. Albrecht, David Mguni"
   year: 2023
@@ -63,6 +65,7 @@ pubs:
   shortcut: aamas_dc
   url: "https://dl.acm.org/doi/abs/10.5555/3535850.3536132"
   bibtex: publications/bibtex/aamas_dc.bib
+  slides: publications/slides/task_generalisation.pdf
   category: Doctoral Consortium
   authors: "**Lukas Schäfer**"
   year: 2022
@@ -75,6 +78,7 @@ pubs:
   arxiv: "2107.08966"
   code: https://github.com/uoe-agents/derl
   bibtex: publications/bibtex/derl_aamas.bib
+  slides: publications/slides/derl_aamas_slides.pdf
   category: Conference - Oral
   authors: "**Lukas Schäfer**, Filippos Christianos, Josiah P. Hanna, Stefano V. Albrecht"
   year: 2022
