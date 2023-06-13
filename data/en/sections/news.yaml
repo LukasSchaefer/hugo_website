@@ -12,7 +12,7 @@ max_posts: 8
 news_posts:
 - type: announcement
   date: "May 29, 2023"
-  content: 'I`m very excited to announce that the first pre-print non-final PDF of our book "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches" is now released and available on the official webpage [www.marl-book.com](www.marl-book.com)!'
+  content: "I`m very excited to announce that the first pre-print non-final PDF of our book \"Multi-Agent Reinforcement Learning: Foundations and Modern Approaches\" is now released and available on the official webpage [www.marl-book.com](https://www.marl-book.com)!"
 
 - type: paper
   date: "Apr 14, 2023"
