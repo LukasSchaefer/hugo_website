@@ -19,9 +19,9 @@ experiences:
   positions:
   - designation: Research Scientist Intern
     start: Apr 2023
-    # end: Jun 2023
+    end: Oct 2023
     responsibilities:
-    - Researching multi-agent reinforcement learning for video games under the supervision of Sam Devlin.
+    - Researching visual encoders for imitation learning in video games under the supervision of Sam Devlin.
 
 
 - company:

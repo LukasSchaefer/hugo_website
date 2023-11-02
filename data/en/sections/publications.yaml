@@ -20,7 +20,20 @@ pubs:
   category: Textbook
   authors: "Stefano V. Albrecht, Filippos Christianos, **Lukas Schäfer** (equal authorship)"
   year: 2024
-  publisher: "Pre-print, to be published by MIT Press (scheduled for fall 2024)"
+  publisher: "To be published by MIT Press (print scheduled for fall 2024)"
+
+- title: Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning
+  shortcut: mate
+  url: "https://arxiv.org/abs/2207.02249"
+  arxiv: "2207.02249"
+  code: https://github.com/uoe-agents/mate
+  bibtex: publications/bibtex/mate.bib
+  category: Workshop - Poster
+  authors: "**Lukas Schäfer**, Filippos Christianos, Amos Storkey, Stefano V. Albrecht"
+  year: 2023
+  publisher: "Workshop on Generalization in Planning in the Conference on Neural Information Processing Systems (NeurIPS), 2023"
+  abstract: "Successful deployment of multi-agent reinforcement learning often requires agents to adapt their behaviour. In this work, we discuss the problem of teamwork adaptation in which a team of agents needs to adapt their policies to solve novel tasks with limited fine-tuning. Motivated by the intuition that agents need to be able to identify and distinguish tasks in order to adapt their behaviour to the current task, we propose to learn multi-agent task embeddings (MATE). These task embeddings are trained using an encoder-decoder architecture optimised for reconstruction of the transition and reward functions which uniquely identify tasks. We show that a team of agents is able to adapt to novel tasks when provided with task embeddings. We propose three MATE training paradigms: independent MATE, centralised MATE, and mixed MATE which vary in the information used for the task encoding. We show that the embeddings learned by MATE identify tasks and provide useful information which agents leverage during adaptation to novel tasks."
+
 
 - title: Ensemble Value Functions for Efficient Exploration in Multi-Agent Reinforcement Learning
   shortcut: emax
@@ -45,18 +58,6 @@ pubs:
   year: 2023
   publisher: "Adaptive and Learning Agents (ALA) Workshop in the International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2023"
   abstract: "One of the key challenges of Reinforcement Learning (RL) is the ability of agents to generalise their learned policy to unseen settings. Moreover, training RL agents requires large numbers of interactions with the environment. Motivated by the recent success of Offline RL and Imitation Learning (IL), we conduct a study to investigate whether agents can leverage offline data in the form of trajectories to improve the sample-efficiency in procedurally generated environments. We consider two settings of using IL from offline data for RL: (1) pre-training a policy before online RL training and (2) concurrently training a policy with online RL and IL from offline data. We analyse the impact of the quality (optimality of trajectories) and diversity (number of trajectories and covered level) of available offline trajectories on the effectiveness of both approaches. Across four well-known sparse reward tasks in the MiniGrid environment, we find that using IL for pre-training and concurrently during online RL training both consistently improve the sample-efficiency while converging to optimal policies. Furthermore, we show that pre-training a policy from as few as two trajectories can make the difference between learning an optimal policy at the end of online training and not learning at all. Our findings motivate the widespread adoption of IL for pre-training and concurrent IL in procedurally generated environments whenever offline trajectories are available or can be generated."
-
-- title: Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning
-  shortcut: mate
-  url: "https://arxiv.org/abs/2207.02249"
-  arxiv: "2207.02249"
-  code: https://github.com/uoe-agents/mate
-  bibtex: publications/bibtex/mate.bib
-  category: Preprint
-  authors: "**Lukas Schäfer**, Filippos Christianos, Amos Storkey, Stefano V. Albrecht"
-  year: 2022
-  publisher: "arXiv"
-  abstract: "Successful deployment of multi-agent reinforcement learning often requires agents to adapt their behaviour. In this work, we discuss the problem of teamwork adaptation in which a team of agents needs to adapt their policies to solve novel tasks with limited fine-tuning. Motivated by the intuition that agents need to be able to identify and distinguish tasks in order to adapt their behaviour to the current task, we propose to learn multi-agent task embeddings (MATE). These task embeddings are trained using an encoder-decoder architecture optimised for reconstruction of the transition and reward functions which uniquely identify tasks. We show that a team of agents is able to adapt to novel tasks when provided with task embeddings. We propose three MATE training paradigms: independent MATE, centralised MATE, and mixed MATE which vary in the information used for the task encoding. We show that the embeddings learned by MATE identify tasks and provide useful information which agents leverage during adaptation to novel tasks."
 
 - title: Robust On-Policy Sampling for Data-Efficient Policy Evaluation in Reinforcement Learning
   shortcut: data_collection
