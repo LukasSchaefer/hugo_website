@@ -14,7 +14,7 @@ positions:
   where: "School of Informatics, University of Edinburgh"
   start: "Oct 2019"
   end: "June 2022"
-  header: "Teaching assistant, demonstrator and marker for three iterations of the Reinforcement Learning lecture at the University of Einburgh under Dr. Stefano V. Albrecht"
+  header: "Teaching assistant, demonstrator and marker for three iterations of the Reinforcement Learning lecture at the University of Edinburgh under Dr. Stefano V. Albrecht"
   responsibilities:
     - Holding lectures on implementation of RL systems and Deep RL
     - Designing RL project covering wide range of topics including dynamic programming, single- and multi-agent RL as well as deep RL
@@ -25,7 +25,7 @@ positions:
   where: "School of Informatics, University of Edinburgh"
   start: "Jun 2022"
   # end: "Aug 2021"
-  header: "Co-supervised visiting PhD student project at the University of Einburgh"
+  header: "Co-supervised visiting PhD student project at the University of Edinburgh"
   responsibilities:
     - Supervision through regular meetings discussing research project and ideating novel solutions
     - Assisted project towards a **successful workshop publication** at the ALA workshop at AAMAS 2023
@@ -34,7 +34,7 @@ positions:
   where: "School of Informatics, University of Edinburgh"
   start: "Feb 2021"
   end: "Aug 2021"
-  header: "Co-supervised final Masters students' projects at the University of Einburgh"
+  header: "Co-supervised final Masters students' projects at the University of Edinburgh"
   responsibilities:
     - Co-supervised two M.Sc. students through project proposal, refinement and execution towards final thesis
     - Assisted M.Sc. student from their thesis towards a **successful workshop publication** at NeurIPS 2021, and a **successful main conference publication at NeurIPS 2022**.

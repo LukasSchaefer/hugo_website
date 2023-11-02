@@ -12,7 +12,7 @@ max_posts: 8
 news_posts:
 - type: announcement
   date: "Nov 01, 2023"
-  content: "It is DONE! Our textbook \"Multi-Agent Reinforcement Learning: Foundations and Modern Approaches\" is now with MIT Press and available on the official webpage [www.marl-book.com](https://www.marl-book.com)! The print release in scheduled for late 2024."
+  content: "It is DONE! Our textbook \"Multi-Agent Reinforcement Learning: Foundations and Modern Approaches\" is now with MIT Press and available on the official webpage [www.marl-book.com](https://www.marl-book.com)! The print release is scheduled for late 2024."
 
 - type: paper
   date: "Oct 30, 2023"
