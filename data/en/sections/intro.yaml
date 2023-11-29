@@ -16,7 +16,7 @@ company:
 summary: |
     I am a Data Science and Artificial Intelligence PhD student from Germany working on multi-agent reinforcement learning at the University of Edinburgh, where I am supervised by [Stefano Albrecht](https://agents.inf.ed.ac.uk/stefano-albrecht/) and [Amos Storkey](https://homepages.inf.ed.ac.uk/amos/).
 
-    Stefano, [Filippos Christianos](https://fchristianos.com/) and myself together wrote a textbook on Multi-Agent Reinforcement Learning. The book will be published with MIT Press and a PDF is already available at [www.marl-book.com](https://www.marl-book.com/)!
+    Stefano, [Filippos](https://fchristianos.com/) and myself wrote a textbook on multi-agent reinforcement learning. The book will be published with MIT Press and is already available at [www.marl-book.com](https://www.marl-book.com/)!
 
     My research focuses on the challenges of generalisation and sample efficiency: how can multiple agents learn effective behaviour with less data and be able to learn robust, re-usable skills which transfer to new environments.
 
