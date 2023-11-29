@@ -14,18 +14,20 @@ company:
     url: https://www.ed.ac.uk/
 
 summary: |
-    I am a Data Science and Artificial Intelligence PhD student from Germany working on multi-agent reinforcement learning at the University of Edinburgh, where I am supervised by [Stefano Albrecht](http://svalbrecht.de/) and [Amos Storkey](https://homepages.inf.ed.ac.uk/amos/).
+    I am a Data Science and Artificial Intelligence PhD student from Germany working on multi-agent reinforcement learning at the University of Edinburgh, where I am supervised by [Stefano Albrecht](https://agents.inf.ed.ac.uk/stefano-albrecht/) and [Amos Storkey](https://homepages.inf.ed.ac.uk/amos/).
+
+    Stefano, [Filippos Christianos](https://fchristianos.com/) and myself together wrote a textbook on Multi-Agent Reinforcement Learning. The book will be published with MIT Press and a PDF is already available at [www.marl-book.com](https://www.marl-book.com/)!
 
     My research focuses on the challenges of generalisation and sample efficiency: how can multiple agents learn effective behaviour with less data and be able to learn robust, re-usable skills which transfer to new environments.
 
-    I am currently a Research Scientist Intern at Microsoft Research Cambridge where I am working with the [Game Intelligence lab](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) under the supervision of [Sam Devlin](https://www.microsoft.com/en-us/research/people/sadevlin/). Previously, I interned at Dematic and Huawei Noah's Ark Lab. At Dematic, I researched and developed AI solutions for large-scale warehouse automation. At Huawei, I was part of the multi-agent team researching novel exploration techniques for multi-agent reinforcement learning under the supervision of David Mguni.
+    Previously, I interned at at Microsoft Research Cambridge, where I worked with the [Game Intelligence lab](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) under the supervision of Sam Devlin, at Huawei Noah's Ark Lab and Dematic. At MSR, I researched visual encoders for imitation learning in video games, including vision foundation models. At Huawei, I was part of the multi-agent team researching novel exploration techniques for multi-agent reinforcement learning under the supervision of David Mguni. At Dematic, I researched and developed AI solutions for large-scale warehouse automation. 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-# - name: Email
-#   icon: "fas fa-envelope"
-#   url: "l.schaefer@ed.ac.uk"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "l.schaefer@ed.ac.uk"
 
 - name: GoogleScholar
   icon: "ai ai-google-scholar"
@@ -64,18 +66,18 @@ softSkills:
 - name: Research
   percentage: 90
   color: blue
+- name: Reinforcement Learning
+  percentage: 90
+  color: yellow
 - name: Deep Learning
   percentage: 85
-  color: yellow
+  color: orange
 - name: Teaching
-  percentage: 80
+  percentage: 85
   color: green
 - name: Python
   percentage: 90
   color: pink
-- name: Unix
-  percentage: 80
-  color: orange
 - name: SE
-  percentage: 75
+  percentage: 80
   color: sky
