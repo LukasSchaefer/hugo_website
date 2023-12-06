@@ -11,6 +11,10 @@ max_posts: 8
 
 news_posts:
 - type: announcement
+  date: "Dec 06, 2023"
+  content: "New preprint on [Visual Encoders for Data-Efficient Imitation Learning in Modern Video Games](https://arxiv.org/abs/2312.02312) is now available on arXiv."
+
+- type: announcement
   date: "Nov 01, 2023"
   content: "It is DONE! Our textbook \"Multi-Agent Reinforcement Learning: Foundations and Modern Approaches\" is now with MIT Press and available on the official webpage [www.marl-book.com](https://www.marl-book.com)! The print release is scheduled for late 2024."
 

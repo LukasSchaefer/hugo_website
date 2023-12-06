@@ -22,6 +22,17 @@ pubs:
   year: 2024
   publisher: "To be published by MIT Press (print scheduled for fall 2024)"
 
+- title: Visual Encoders for Data-Efficient Imitation Learning in Modern Video Games
+  shortcut: bc_games
+  url: "https://arxiv.org/abs/2312.02312"
+  arxiv: "2312.02312"
+  bibtex: publications/bibtex/bc_games.bib
+  category: Preprint
+  authors: "**Lukas Schäfer**, Logan Jones, Anssi Kanervisto, Yuhan Cao, Tabish Rashid, Raluca Georgescu, Dave Bignell, Siddhartha Sen, Andrea Treviño Gavito, Sam Devlin"
+  year: 2023
+  publisher: "arXiv"
+  abstract: "Video games have served as useful benchmarks for the decision making community, but going beyond Atari games towards training agents in modern games has been prohibitively expensive for the vast majority of the research community. Recent progress in the research, development and open release of large vision models has the potential to amortize some of these costs across the community. However, it is currently unclear which of these models have learnt representations that retain information critical for sequential decision making. Towards enabling wider participation in the research of gameplaying agents in modern games, we present a systematic study of imitation learning with publicly available visual encoders compared to the typical, task-specific, end-to-end training approach in Minecraft, Minecraft Dungeons and Counter-Strike: Global Offensive."
+
 - title: Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning
   shortcut: mate
   url: "https://arxiv.org/abs/2207.02249"
