@@ -25,12 +25,14 @@ summary: |
 
     Previously, I interned at at Microsoft Research Cambridge, where I worked with the [Game Intelligence lab](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) under the supervision of Sam Devlin, at Huawei Noah's Ark Lab and Dematic. At MSR, I researched visual encoders for imitation learning in video games, including vision foundation models. At Huawei, I was part of the multi-agent team researching novel exploration techniques for multi-agent reinforcement learning under the supervision of David Mguni. At Dematic, I researched and developed AI solutions for large-scale warehouse automation. 
 
+    **Contact: l.schaefer [at] ed.ac.uk**
+
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "l.schaefer@ed.ac.uk"
+# - name: Email
+#   icon: "fas fa-envelope"
+#   url: "l.schaefer@ed.ac.uk"
 
 - name: GoogleScholar
   icon: "ai ai-google-scholar"
