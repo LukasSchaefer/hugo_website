@@ -70,6 +70,18 @@ pubs:
   publisher: "Adaptive and Learning Agents (ALA) Workshop in the International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2023"
   abstract: "One of the key challenges of Reinforcement Learning (RL) is the ability of agents to generalise their learned policy to unseen settings. Moreover, training RL agents requires large numbers of interactions with the environment. Motivated by the recent success of Offline RL and Imitation Learning (IL), we conduct a study to investigate whether agents can leverage offline data in the form of trajectories to improve the sample-efficiency in procedurally generated environments. We consider two settings of using IL from offline data for RL: (1) pre-training a policy before online RL training and (2) concurrently training a policy with online RL and IL from offline data. We analyse the impact of the quality (optimality of trajectories) and diversity (number of trajectories and covered level) of available offline trajectories on the effectiveness of both approaches. Across four well-known sparse reward tasks in the MiniGrid environment, we find that using IL for pre-training and concurrently during online RL training both consistently improve the sample-efficiency while converging to optimal policies. Furthermore, we show that pre-training a policy from as few as two trajectories can make the difference between learning an optimal policy at the end of online training and not learning at all. Our findings motivate the widespread adoption of IL for pre-training and concurrent IL in procedurally generated environments whenever offline trajectories are available or can be generated."
 
+- title: Multi-Horizon Representations with Hierarchical Forward Models for Reinforcement Learning
+  shortcut: hksl
+  url: "https://arxiv.org/abs/2206.11396"
+  arxiv: "2206.11396"
+  code: https://github.com/trevormcinroe/hksl
+  bibtex: publications/bibtex/hksl.bib
+  category: Journal
+  authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
+  year: 2023
+  publisher: "Transactions on Machine Learning Research (TMLR) Journal"
+  abstract: "Learning control from pixels is difficult for reinforcement learning (RL) agents because representation learning and policy learning are intertwined. Previous approaches remedy this issue with auxiliary representation learning tasks, but they either do not consider the temporal aspect of the problem or only consider single-step transitions. Instead, we propose Hierarchical k-Step Latent (HKSL), an auxiliary task that learns representations via a hierarchy of forward models that operate at varying magnitudes of step skipping while also learning to communicate between levels in the hierarchy. We evaluate HKSL in a suite of 30 robotic control tasks and find that HKSL either reaches higher episodic returns or converges to maximum performance more quickly than several current baselines. Also, we find that levels in HKSL's hierarchy can learn to specialize in long- or short-term consequences of agent actions, thereby providing the downstream control policy with more informative representations. Finally, we determine that communication channels between hierarchy levels organize information based on both sides of the communication process, which improves sample efficiency."
+
 - title: Robust On-Policy Sampling for Data-Efficient Policy Evaluation in Reinforcement Learning
   shortcut: data_collection
   url: "https://nips.cc/Conferences/2022/Schedule?showEvent=53733"
@@ -119,28 +131,16 @@ pubs:
   publisher: "AI Communications Special Issue on Multi-Agent Systems Research in the UK"
   abstract: "The development of autonomous agents which can interact with other agents to accomplish a given task is a core area of research in artificial intelligence and machine learning. Towards this goal, the Autonomous Agents Research Group develops novel machine learning algorithms for autonomous systems control, with a specific focus on deep reinforcement learning and multi-agent reinforcement learning. Research problems include scalable learning of coordinated agent policies and inter-agent communication; reasoning about the behaviours, goals, and composition of other agents from limited observations; and sample-efficient learning based on intrinsic motivation, curriculum learning, causal inference, and representation learning. This article provides a broad overview of the ongoing research portfolio of the group and discusses open problems for future directions."
 
-- title: Learning Representations for Control with Hierarchical Forward Models
-  shortcut: hksl
-  url: "https://arxiv.org/abs/2206.11396"
-  arxiv: "2206.11396"
-  code: https://github.com/trevormcinroe/hksl
-  bibtex: publications/bibtex/hksl.bib
-  category: Preprint
-  authors: "Trevor McInroe, **Lukas Schäfer**, Stefano V. Albrecht"
-  year: 2022
-  publisher: "arXiv"
-  abstract: "Learning control from pixels is difficult for reinforcement learning (RL) agents because representation learning and policy learning are intertwined. Previous approaches remedy this issue with auxiliary representation learning tasks, but they either do not consider the temporal aspect of the problem or only consider single-step transitions. Instead, we propose Hierarchical k-Step Latent (HKSL), an auxiliary task that learns representations via a hierarchy of forward models that operate at varying magnitudes of step skipping while also learning to communicate between levels in the hierarchy. We evaluate HKSL in a suite of 30 robotic control tasks and find that HKSL either reaches higher episodic returns or converges to maximum performance more quickly than several current baselines. Also, we find that levels in HKSL's hierarchy can learn to specialize in long- or short-term consequences of agent actions, thereby providing the downstream control policy with more informative representations. Finally, we determine that communication channels between hierarchy levels organize information based on both sides of the communication process, which improves sample efficiency."
-
 - title: Scalable Multi-Agent Reinforcement Learning for Warehouse Logistics with Robotic and Human Co-Workers
   shortcut: dematic
   url: "https://arxiv.org/abs/2212.11498"
   arxiv: "2212.11498"
   bibtex: publications/bibtex/dematic.bib
   category: Preprint
-  authors: "Aleksandar Krnjaic, Jonathan D. Thomas, Georgios Papoudakis, **Lukas Schäfer**, Peter Börsting, Stefano V. Albrecht"
-  year: 2022
+  authors: "Aleksandar Krnjaic, Raul D. Steleac, Jonathan D. Thomas, Georgios Papoudakis, **Lukas Schäfer**, Andrew Wing Keung To, Kuan-Ho Lao, Murat Cubuktepe, Matthew Haley, Peter Börsting, Stefano V. Albrecht"
+  year: 2023
   publisher: "arXiv"
-  abstract: "This project leverages advances in multi-agent reinforcement learning (MARL) to improve the efficiency and flexibility of order-picking systems for commercial warehouses. We envision a warehouse of the future in which dozens of mobile robots and human pickers work together to collect and deliver items within the warehouse. The fundamental problem we tackle, called the order-picking problem, is how these worker agents must coordinate their movement and actions in the warehouse to maximise performance (e.g. order throughput) under given resource constraints. Established industry methods using heuristic approaches require large engineering efforts to optimise for innately variable warehouse configurations. In contrast, the MARL framework can be flexibly applied to any warehouse configuration (e.g. size, layout, number/types of workers, item replenishment frequency) and the agents learn via a process of trial-and-error how to optimally cooperate with one another. This paper details the current status of the R&D effort initiated by Dematic and the University of Edinburgh towards a general-purpose and scalable MARL solution for the order-picking problem in realistic warehouses."
+  abstract: "We envision a warehouse in which dozens of mobile robots and human pickers work together to collect and deliver items within the warehouse. The fundamental problem we tackle, called the order-picking problem, is how these worker agents must coordinate their movement and actions in the warehouse to maximise performance (e.g. order throughput). Established industry methods using heuristic approaches require large engineering efforts to optimise for innately variable warehouse configurations. In contrast, multi-agent reinforcement learning (MARL) can be flexibly applied to diverse warehouse configurations (e.g. size, layout, number/types of workers, item replenishment frequency), as the agents learn through experience how to optimally cooperate with one another. We develop hierarchical MARL algorithms in which a manager assigns goals to worker agents, and the policies of the manager and workers are co-trained toward maximising a global objective (e.g. pick rate). Our hierarchical algorithms achieve significant gains in sample efficiency and overall pick rates over baseline MARL algorithms in diverse warehouse configurations, and substantially outperform two established industry heuristics for order-picking systems."
 
 - title: Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks
   shortcut: marl_benchmark
