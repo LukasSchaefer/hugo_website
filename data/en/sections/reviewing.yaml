@@ -14,7 +14,9 @@ revs:
 - title: Conferences
   # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
   # category: Conference
-  conference: "- 2023: NeurIPS, NeurIPS Datasets and Benchmark Track, ICML, AAMAS
+  conference: "- 2024: ICML, RLC, AAMAS
+
+  - 2023: NeurIPS, NeurIPS Datasets and Benchmark Track, ICML, AAMAS
 
   - 2022: NeurIPS, NeurIPS Datasets and Benchmark Track, ICML (**top 10% outstanding reviewer award**), AAMAS
 
@@ -24,3 +26,8 @@ revs:
   # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
   # category: Conference
   conference: "Pre-registration experiment workshop at NeurIPS 2020"
+
+- title:  Journals
+  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+  # category: Conference
+  conference: "Transactions on Machine Learning Research (TMLR)"
