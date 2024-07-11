@@ -16,9 +16,9 @@ degrees:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
     logo: uoe_logo.jpg
-  custonSections:
+  customSections:
     - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      content: Efficient Exploration in Single-Agent and Multi-Agent Deep Reinforcement Learning
     - name: Supervisors
       content: Stefano V. Albrecht (primary) and Amos Storkey (secondary)
     - name: Funding
@@ -41,7 +41,7 @@ degrees:
   grade: #(optional)
     scale: CGPA
     achieved: 77.28%
-  custonSections:
+  customSections:
     - name: Funding
       content: DAAD (German Academic Exchange Service) graduate scholarship & Stevenson Exchange Scholarship
   takenCourses: #(optional)
