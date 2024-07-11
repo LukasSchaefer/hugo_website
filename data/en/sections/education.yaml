@@ -2,9 +2,9 @@
 section:
   name: Education
   id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
   weight: 5
-  background: dark
   showOnNavbar: true
   # Can optionally hide the title in sections
 
@@ -16,10 +16,15 @@ degrees:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
     logo: uoe_logo.jpg
-  project: Sample Efficiency and Generalisation in Multi-Agent Reinforcement Learning
-  supervisors: Stefano V. Albrecht (primary) and Amos Storkey (secondary)
-  funding: Principal's Career Development Scholarship from the University of Edinburgh
-  keys: Reinforcement Learning, Multi-Agent Systems, Generalisation, Exploration, Intrinsic Rewards
+  custonSections:
+    - name: Thesis
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - name: Supervisors
+      content: Stefano V. Albrecht (primary) and Amos Storkey (secondary)
+    - name: Funding
+      content: Principal's Career Development Scholarship from the University of Edinburgh
+    - name: Keywords
+      content: Reinforcement Learning, Multi-Agent Systems, Generalisation, Exploration, Intrinsic Rewards
   # publications: #(optional)
   # - title: "Shared Experience Actor-Critic for Multi-Agent Reinforcement Learning (NeurIPS 2020)"
   #   url: "https://arxiv.org/abs/2006.07169"
@@ -36,12 +41,13 @@ degrees:
   grade: #(optional)
     scale: CGPA
     achieved: 77.28%
-  transcript: msc_transcript
-  funding: DAAD (German Academic Exchange Service) graduate scholarship & Stevenson Exchange Scholarship
-    # outOf: 100%
+  custonSections:
+    - name: Funding
+      content: DAAD (German Academic Exchange Service) graduate scholarship & Stevenson Exchange Scholarship
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
+    collapseAfter: 5
     hideScale: true
     hideLecturer: true
     courses:
@@ -108,8 +114,6 @@ degrees:
   grade: #(optional)
     scale: German scale
     achieved: 1.2
-  transcript: bsc_transcript
-    # outOf: 5.0
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
     showGrades: true
@@ -207,25 +211,19 @@ degrees:
   extracurricularActivities: #(optional)
   - Japanese language and cultural studies as minor subject.
 
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2008-2015
-  institution:
-    name: Warndtgymnasium
-    url: "http://warndt-gymnasium.de/"
-    logo: wg_logo.jpg
-  grade: #(optional)
-    scale: German scale
-    achieved: "1.0"
-  awards:
-      - School year's best student award
-      - Computer Science award of Saarland University
-      - Mathematics award of Saarland University
-      - History award of Historic Society for the Saar-Region
+# - name: Higher Secondary School Certificate
+#   icon: fa-university
+#   timeframe: 2008-2015
+#   institution:
+#     name: Warndtgymnasium
+#     url: "http://warndt-gymnasium.de/"
+#     logo: wg_logo.jpg
+#   grade: #(optional)
+#     scale: German scale
+#     achieved: "1.0"
+#   awards:
+#       - School year's best student award
+#       - Computer Science award of Saarland University
+#       - Mathematics award of Saarland University
+#       - History award of Historic Society for the Saar-Region
 
-    # outOf: 5
-  # extracurricularActivities: #(optional)
-  # - In vitae facilisis est, eget porta sem.
-  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  # - Duis sed massa feugiat, ornare justo et, aliquam est.
-  # - Pellentesque ut fringilla magna.
