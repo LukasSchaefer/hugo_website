@@ -1,0 +1,61 @@
+# section information
+section:
+  name: Teaching Experience
+  id: teaching
+  template: sections/teaching.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+positions:
+- title: "Teaching Assistant"
+  where: "School of Informatics, University of Edinburgh"
+  start: "Oct 2019"
+  end: "June 2022"
+  header: "Teaching assistant, demonstrator and marker for three iterations of the Reinforcement Learning lecture at the University of Edinburgh under Dr. Stefano V. Albrecht"
+  responsibilities:
+    - Holding lectures on implementation of RL systems and Deep RL
+    - Designing RL project covering wide range of topics including dynamic programming, single- and multi-agent RL as well as deep RL
+    - Marking project and exam for reinforcement learning course
+    - Advising students on various challenges regarding lecture material and content
+
+- title: "Visiting Student Co-Supervision"
+  where: "School of Informatics, University of Edinburgh"
+  start: "Jun 2022"
+  # end: "Aug 2021"
+  header: "Co-supervised visiting PhD student project at the University of Edinburgh"
+  responsibilities:
+    - Supervision through regular meetings discussing research project and ideating novel solutions
+    - Assisted project towards a **successful workshop publication** at the ALA workshop at AAMAS 2023
+
+- title: "M.Sc. Student Supervision"
+  where: "School of Informatics, University of Edinburgh"
+  start: "Feb 2021"
+  end: "Aug 2021"
+  header: "Co-supervised final Masters students' projects at the University of Edinburgh"
+  responsibilities:
+    - Co-supervised two M.Sc. students through project proposal, refinement and execution towards final thesis
+    - Assisted M.Sc. student from their thesis towards a **successful workshop publication** at NeurIPS 2021, and a **successful main conference publication at NeurIPS 2022**.
+
+- title: "Lecturer and Coach"
+  where: "Mathematics Preparation Course, Saarland University"
+  start: "Sep 2017"
+  end: "Oct 2017"
+  header: "Voluntary lecturer and coach for the mathematics preparation course preparing upcoming computer science undergraduate students for their studies"
+  responsibilities:
+    - Assisted the organisation of the mathematics preparation course for upcoming computer science students aiming to introduce them to foundational mathematical concepts, the university and student life as a whole
+    - Introduced **∼250 participants** to the importance of mathematics for computer science, formal languages and predicate logic in daily lectures of the first week
+    - Supervised two groups to provide feedback and further assistance in daily coaching-sessions
+    - The course received the **BESTE-award** for special student commitment 2017 at Saarland University
+
+- title: "Teaching Assistant"
+  where: "Dependable Systems and Software Chair, Saarland University"
+  start: "Oct 2016"
+  end: "Mar 2017"
+  header: "Tutor for the Programming 1 lecture about functional programming at the Dependable Systems and Software Group chair of Saarland University under Prof. Dr. Holger Hermanns"
+  responsibilities:
+    - Taught first-year students fundamental concepts of functional programming, basic complexity theory and inductive correctness proofs in weekly tutorials and office hours
+    - Corrected weekly tests as well as mid- and endterm exams
+    - Collectively created learning materials and discussed student progress as part of the whole teaching team

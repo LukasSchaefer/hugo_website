@@ -1,0 +1,38 @@
+# section information
+section:
+  name: Reviewing
+  id: reviewing
+  enable: true
+  weight: 8
+  showOnNavbar: false
+  template: sections/reviewing.html # Use "sections/education-alt.html for alternate template.
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+groups:
+- title: Conferences
+  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+  # category: Conference
+  entries:
+    - year: 2024
+      content: ICML, RLC, AAMAS
+    - year: 2023
+      content: NeurIPS, NeurIPS Datasets and Benchmark Track, ICML, AAMAS
+    - year: 2022
+      content: NeurIPS, NeurIPS Datasets and Benchmark Track, ICML (**top 10% outstanding reviewer award**), AAMAS
+    - year: 2021
+      content: NeurIPS
+
+- title:  Workshops
+  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+  # category: Conference
+  entries:
+    - year: 2020
+      content: Pre-registration experiment workshop at NeurIPS
+
+- title:  Journals
+  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+  # category: Conference
+  entries:
+    - year: 2024
+      content: Transactions on Machine Learning Research (TMLR)

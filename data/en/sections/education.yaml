@@ -15,7 +15,7 @@ degrees:
   institution:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
-    logo: uoe_logo.jpg
+    logo: images/uni_logos/uoe_logo.jpg
   customSections:
     - name: Thesis
       content: Efficient Exploration in Single-Agent and Multi-Agent Deep Reinforcement Learning
@@ -37,7 +37,7 @@ degrees:
   institution:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
-    logo: uoe_logo.jpg
+    logo: images/uni_logos/uoe_logo.jpg
   grade: #(optional)
     scale: CGPA
     achieved: 77.28%
@@ -110,7 +110,7 @@ degrees:
   institution:
     name: Saarland University
     url: "https://saarland-informatics-campus.de/en/"
-    logo: uds_logo_small.jpg
+    logo: images/uni_logos/uds_logo_small.jpg
   grade: #(optional)
     scale: German scale
     achieved: 1.2
@@ -217,7 +217,7 @@ degrees:
 #   institution:
 #     name: Warndtgymnasium
 #     url: "http://warndt-gymnasium.de/"
-#     logo: wg_logo.jpg
+#     logo: images/uni_logos/wg_logo.jpg
 #   grade: #(optional)
 #     scale: German scale
 #     achieved: "1.0"
