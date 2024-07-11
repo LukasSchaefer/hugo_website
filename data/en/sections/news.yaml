@@ -1,0 +1,95 @@
+# section information
+section:
+  name: News
+  id: news
+  enable: true
+  weight: 2
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+
+max_posts: 8
+
+news_posts:
+- type: announcement
+  date: "Dec 06, 2023"
+  content: "New preprint on [Visual Encoders for Data-Efficient Imitation Learning in Modern Video Games](https://arxiv.org/abs/2312.02312) is now available on arXiv."
+
+- type: announcement
+  date: "Nov 01, 2023"
+  content: "It is DONE! Our textbook \"Multi-Agent Reinforcement Learning: Foundations and Modern Approaches\" is now with MIT Press and available on the official webpage [www.marl-book.com](https://www.marl-book.com)! The print release is scheduled for late 2024."
+
+- type: paper
+  date: "Oct 30, 2023"
+  content: "Our work [Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2207.02249) will be presented at the Workshop on Generalization in Planning at the Conference on Neural Information Processing Systems (NeurIPS) 2023!"
+
+- type: announcement
+  date: "May 29, 2023"
+  content: "I`m very excited to announce that the first pre-print non-final PDF of our book Multi-Agent Reinforcement Learning: Foundations and Modern Approaches is now released and available on the official webpage [www.marl-book.com](https://www.marl-book.com)!"
+
+- type: paper
+  date: "Apr 14, 2023"
+  content: "Our works, [Ensemble Value Functions for Efficient Exploration in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2302.03439) and [Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments](https://arxiv.org/abs/2304.09825), will be presented at the Adaptive and Learning Agents (ALA) Workshop at the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2023!"
+
+- type: announcement
+  date: "Apr 03, 2023"
+  content: "I'm very excited to start a research internship with the Game Intelligence lab at Microsoft Research Cambridge!"
+
+- type: paper
+  date: "Sep 14, 2022"
+  content: "Our work, [Robust On-Policy Sampling for Data-Efficient Policy Evaluation in Reinforcement Learning](https://arxiv.org/abs/2111.14552), has been accepted at the Neural Information Processing Systems Conference (NeurIPS) 2022!"
+
+- type: announcement
+  date: "Aug 27, 2022"
+  content: "Excited to announce that I was selected to attend the upcoming 9th [Heidelberg Laureate Forum](https://www.heidelberg-laureate-forum.org/)!"
+
+- type: paper
+  date: "Jul 05, 2022"
+  content: "Made our new preprint on [Learning Task Embeddings for Teamwork Adaptation in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2207.02249) available on arXiv."
+
+- type: announcement
+  date: "Jul 04, 2022"
+  content: "I'm very excited to start a research internship at Huawei Noah's Ark Lab in London (multi-agent team) with David Mguni!"
+
+- type: paper
+  date: "Feb 10, 2022"
+  content: "My submission on [Task Generalisation in Multi-Agent Reinforcement Learning](https://dl.acm.org/doi/abs/10.5555/3535850.3536132) has been accepted in the Doctoral Consortium of the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2022!"
+
+- type: paper
+  date: "Dec 19, 2021"
+  content: "Our work, [Decoupled Reinforcement Learning to Stabilise Intrinsically-Motivated Exploration](https://arxiv.org/abs/2107.08966), has been accepted at International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2022!"
+
+- type: tech
+  date: "Aug 29, 2021"
+  content: "Just published a big redesign of my webpage based on [GoHugo](https://gohugo.io/)!"
+
+- type: paper
+  date: "Jul 30, 2021"
+  content: "Our work, [Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks](https://openreview.net/forum?id=cIrPX-Sn5n), has been accepted at the Datasets and Benchmarks track of the Neural Information Processing Systems Conference (NeurIPS) 2021!"
+  # tweet:
+  #   id: 1421131935007576064
+  #   align: left
+  #   hide_media: false
+
+- type: paper
+  date: "Jul 20, 2021"
+  content: "Our work, [Decoupling Exploration and Exploitation in Reinforcement Learning](https://arxiv.org/abs/2107.08966), has been accepted at the Unsupervised RL (URL) workshop in the International Conference on Machine Learning (ICML) 2021!"
+  # tweet:
+  #   id: 1417419653857546240
+  #   align: left
+  #   hide_media: false
+
+- type: blog
+  date: "March 19, 2021"
+  content: "I wrote a [blog post](https://agents.inf.ed.ac.uk/blog/multiagent-learning-environments/) providing an overview of a range of multi-agent learning environments."
+
+- type: paper
+  date: "Sep 27, 2020"
+  content: "Our work, [Shared Experience Actor-Critic or Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2006.07169), has been accepted at the Neural Information Processing Systems Conference (NeurIPS) 2020!"
+  # tweet:
+  #   id: 1310174609359212546
+  #   align: left
+  #   hide_media: false
+
+- type: blog
+  date: "June 25, 2020"
+  content: "I wrote a [blog post](https://agents.inf.ed.ac.uk/blog/uk-multiagent-systems-symposium/) about the UK Multi-Agent Systems Symposium at the Alan Turing Institute in London."

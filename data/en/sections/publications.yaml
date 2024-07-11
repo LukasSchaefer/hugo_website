@@ -45,7 +45,7 @@ publications:
     date: 2023
     url: "https://arxiv.org/abs/2312.02312"
   authors:
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: Logan Jones
     - name: Anssi Kanervisto
     - name: Yuhan Cao
@@ -67,7 +67,7 @@ publications:
     date: 2023
     url: "https://arxiv.org/abs/2207.02249"
   authors:
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: Filippos Christianos
     - name: Amos Storkey
     - name: Stefano V. Albrecht
@@ -84,7 +84,7 @@ publications:
     date: 2023
     url: "https://arxiv.org/abs/2302.03439"
   authors:
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: Oliver Slumbers
     - name: Stephen McAleer
     - name: Yali Du
@@ -103,7 +103,7 @@ publications:
     url: "https://arxiv.org/abs/2304.09825"
   authors:
     - name: "Alain Andres"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: Esther Villar-Rodriguez
     - name: Stefano V. Albrecht
     - name: Javier Del Ser
@@ -120,7 +120,7 @@ publications:
     url: "https://arxiv.org/abs/2206.11396"
   authors:
     - name: "Trevor McInroe"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Stefano V. Albrecht"
   code: https://github.com/trevormcinroe/hksl
   paper:
@@ -137,7 +137,7 @@ publications:
   authors:
     - name: "Rujie Zhong"
     - name: "Duohan Zhang"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Stefano V. Albrecht"
     - name: "Josiah P. Hanna"
   code: https://github.com/uoe-agents/robust_onpolicy_data_collection
@@ -153,7 +153,7 @@ publications:
     date: 2022
     url: "https://dl.acm.org/doi/abs/10.5555/3535850.3536132"
   authors:
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
   paper:
     summary: "Multi-agent reinforcement learning agents are typically trained in a single environment. As a consequence, they overfit to the training environment which results in sensitivity to perturbations and inability to generalise to similar environments. For multi-agent reinforcement learning approaches to be applicable in real-world scenarios, generalisation and robustness need to be addressed. However, unlike in supervised learning, generalisation lacks a clear definition in multi-agent reinforcement learning. We discuss the problem of task generalisation and demonstrate the difficulty of zero-shot generalisation and finetuning at the example of multi-robot warehouse coordination with preliminary results. Lastly, we discuss promising directions of research working towards generalisation of multi-agent reinforcement learning."
     url: "https://dl.acm.org/doi/abs/10.5555/3535850.3536132"
@@ -166,7 +166,7 @@ publications:
     date: 2022
     url: "https://arxiv.org/abs/2107.08966"
   authors:
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Filippos Christianos"
     - name: "Josiah P. Hanna"
     - name: "Stefano V. Albrecht"
@@ -195,7 +195,7 @@ publications:
     - name: "Trevor McInroe"
     - name: "Georgios Papoudakis"
     - name: "Arrasy Rahman"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Massimiliano Tamborski"
     - name: "Giuseppe Vecchio"
     - name: "Cheng Wang"
@@ -216,7 +216,7 @@ publications:
     - name: "Raul D. Steleac"
     - name: "Jonathan D. Thomas"
     - name: "Georgios Papoudakis"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Andrew Wing Keung To"
     - name: "Kuan-Ho Lao"
     - name: "Murat Cubuktepe"
@@ -237,7 +237,7 @@ publications:
   authors:
     - name: "Georgios Papoudakis"
     - name: "Filippos Christianos"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Stefano V. Albrecht"
   code: https://github.com/uoe-agents/epymarl
   paper:
@@ -252,7 +252,7 @@ publications:
     date: 2021
     url: "https://arxiv.org/abs/2107.08966"
   authors:
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Filippos Christianos"
     - name: "Josiah P. Hanna"
     - name: "Stefano V. Albrecht"
@@ -271,7 +271,7 @@ publications:
   authors:
     - name: "Rujie Zhong"
     - name: "Josiah P. Hanna"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Stefano V. Albrecht"
   code: https://github.com/uoe-agents/robust_onpolicy_data_collection
   paper:
@@ -288,7 +288,7 @@ publications:
   authors:
     - name: "Georgios Papoudakis"
     - name: "Filippos Christianos"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Stefano V. Albrecht"
   paper:
     summary: "Multi-agent deep reinforcement learning (MARL) suffers from a lack of commonly-used evaluation tasks and criteria, making comparisons between approaches difficult. In this work, we evaluate and compare three different classes of MARL algorithms (independent learning, centralised multi-agent policy gradient, and value decomposition) in a diverse range of fully-cooperative multi-agent learning tasks. Our experiments can serve as a reference for the expected performance of algorithms across different learning tasks. We also provide further insight about (1) when independent learning might be surprisingly effective despite non-stationarity, (2) when centralised training should (and shouldn’t) be applied and (3) which benefits value decomposition can bring."
@@ -303,7 +303,7 @@ publications:
     url: "https://arxiv.org/abs/2110.04935"
   authors:
     - name: "Trevor McInroe"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Stefano V. Albrecht"
   code: https://github.com/uoe-agents/ksl
   paper:
@@ -319,7 +319,7 @@ publications:
     url: "https://arxiv.org/abs/2006.07169"
   authors:
     - name: "Filippos Christianos"
-    - name: "**Lukas Schäfer**"
+    - name: "Lukas Schäfer"
     - name: "Stefano V. Albrecht"
   code: https://github.com/uoe-agents/seac
   paper:

@@ -5,11 +5,10 @@ section:
   enable: true
   weight: 8
   showOnNavbar: false
-  template: sections/reviewing.html # Use "sections/education-alt.html for alternate template.
   # Can optionally hide the title in sections
   # hideTitle: true
 
-groups:
+categories:
 - title: Conferences
   # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
   # category: Conference
