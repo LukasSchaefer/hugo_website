@@ -7,10 +7,12 @@ birthDate: 1996-12-26
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 
-# give your contact information. they will be used in the footer
+# give your some contact information. they will be used in the footer
 contactInfo:
   email: "l.schaefer[at]ed.ac.uk"
-  # phone: "+44 7925 103212"
+  # phone: "+0123456789"
+  github: LukasSchaefer
+  linkedin: lukas-schaefer
 
 # a summary of what you do
 summary:

@@ -1,17 +1,26 @@
-copyright: © 2021 Lukas Schäfer.
-description: Personal webpage of Lukas Schäfer, German AI PhD student at the University of Edinburgh
+copyright: © 2024 Lukas Schäfer.
+description: Personal webpage of Lukas Schäfer, AI & RL researcher.
 
-mainPages:
-- name: Profile
-  category: sections
-  relUrl: ""
-  weight: 0
-- name: About
-  category: about
-  relUrl: "about"
-  weight: 1
+# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
+disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
+You can modify or distribute the theme without requiring any permission from the theme author.
+However, the theme author does not provide any warranty or takes any liability for any issue with the theme."
 
-# add custom entries in navbar
+# specify the list of custom menus that you want to show in the top navbar.
+# they will be separated by a divider from the main menus.
 # customMenus:
-# - name: About
-#   url: https://lukaschaefer.com/
+# - name: Docs
+#   url: https://toha-guides.netlify.app/posts/
+#   # specify whether to hide the menu item from top navbar or not.
+#   hideFromNavbar: false
+#   # specify whether to show the menu item in footer or not.
+#   # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+#   showOnFooter: false
+
+# Specify OpenGraph Headers
+# openGraph:
+#   title: John's Blog
+#   type: website
+#   description: Portfolio and personal blog of John Doe.
+#   image: images/author/john.png
+#   url: https://hugo-toha.github.io

@@ -1,11 +1,11 @@
 # section information
 section:
-  name: Intro
-  id: intro
+  name: About
+  id: about
   enable: true
   weight: 1
-  background: dark
-  showOnNavbar: false
+  showOnNavbar: true
+  template: sections/about.html
 
 designation: PhD Student
 
@@ -58,31 +58,37 @@ socialLinks:
   icon: "fab fa-twitter"
   url: "https://twitter.com/LukasSchaefer96"
 
-# - name: Instagram
-#   icon: "fab fa-instagram"
-#   url: "https://www.instagram.com/lukas.schaefer96/"
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "My Resume"
+  url: "files/CV.pdf"
 
-resume: "files/CV.pdf"
-
-# your soft skills
-# give the percentage between 50 to 100 with 5 intervals.
-# currently supported colors: blue, yellow, pink, green
-softSkills:
-- name: Research
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: Research
   percentage: 90
   color: blue
-- name: Reinforcement Learning
+- type: soft-skill-indicator
+  name: Reinforcement Learning
   percentage: 90
   color: yellow
-- name: Deep Learning
+- type: soft-skill-indicator
+  name: Deep Learning
   percentage: 85
   color: orange
-- name: Teaching
+- type: soft-skill-indicator
+  name: Teaching
   percentage: 85
   color: green
-- name: Python
+- type: soft-skill-indicator
+  name: Python
   percentage: 90
   color: pink
-- name: SE
+- type: soft-skill-indicator
+  name: SE
   percentage: 80
   color: sky
