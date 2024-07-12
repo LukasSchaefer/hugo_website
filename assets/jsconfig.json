@@ -3,7 +3,7 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "../../../../Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!lukas!schaefer/toha/v4@v4.0.0-20240711155848-2e8ed513160c/assets/*"
+    "../../../../Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!lukas!schaefer/toha/v4@v4.0.0-20240712095707-fe1dbde8020a/assets/*"
    ]
   }
  }
