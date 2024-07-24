@@ -10,6 +10,10 @@ section:
 max_posts: 8
 
 news_posts:
+- type: award
+  date: "Jul 24, 2024"
+  content: "Honored to receive the [best reviewer award](https://x.com/icmlconf/status/1815647580577059312) for the International Conference on Machine Learning (ICML) 2024!"
+
 - type: announcement
   date: "Dec 06, 2023"
   content: "New preprint on [Visual Encoders for Data-Efficient Imitation Learning in Modern Video Games](https://arxiv.org/abs/2312.02312) is now available on arXiv."
