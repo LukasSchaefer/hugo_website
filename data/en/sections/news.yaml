@@ -10,6 +10,10 @@ section:
 max_posts: 8
 
 news_posts:
+- type: announcement
+  date: "Oct 01, 2024"
+  content: "I am very excited to be re-joining the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/game-intelligence/) at Microsoft Research as a Researcher after interning with them last year! As part of the team, I will be working on creating autonomous agents that can enable novel experiences and tools in video games."
+
 - type: award
   date: "Jul 24, 2024"
   content: "Honored to receive the [best reviewer award](https://x.com/icmlconf/status/1815647580577059312) for the International Conference on Machine Learning (ICML) 2024!"

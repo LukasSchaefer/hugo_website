@@ -6,23 +6,19 @@ section:
   weight: 1
   showOnNavbar: true
 
-designation: PhD Student
+designation: Researcher
 
 company:
-    name: University of Edinburgh
-    url: https://www.ed.ac.uk/
+    name: Microsoft Research
+    url: https://www.microsoft.com/en-us/research/people/t-luschaefer
 
 summary: |
 
-    I am a Data Science and Artificial Intelligence PhD student from Germany working on multi-agent reinforcement learning at the University of Edinburgh, where I am supervised by [Stefano Albrecht](https://agents.inf.ed.ac.uk/stefano-albrecht/) and [Amos Storkey](https://homepages.inf.ed.ac.uk/amos/).
+    I am a AI researcher at Microsoft Research with the goal of creating autonomous agents that can efficiently learn to solve complex decision-making tasks in the real world. As part of the [Game Intelligence team](https://www.microsoft.com/en-us/research/group/game-intelligence/), I am working towards autonomous agents that can enable novel experiences and tools in video games. I am broadly excited about technology and AI but most interested in its application for decision-making problems.
 
-    Stefano, [Filippos](https://fchristianos.com/) and myself wrote a textbook on multi-agent reinforcement learning. The book will be published with MIT Press and is already available at [www.marl-book.com](https://www.marl-book.com/)!
+    Prior to joining Microsoft Research, I received my PhD and MSc from the University of Edinburgh where I was supervised by [Stefano Albrecht](https://agents.inf.ed.ac.uk/stefano-albrecht/) and [Amos Storkey](https://homepages.inf.ed.ac.uk/amos/). My research focused on reinforcement learning, in particular in the context of multi-agent systems that require multiple agents to cooperate with each other. Together with Stefano and [Filippos](https://fchristianos.com/), I wrote a textbook on multi-agent reinforcement learning that will be published with MIT Press and is available at [www.marl-book.com](https://www.marl-book.com/)!
 
-    Reinforcement learning is often sample inefficient, and prone to overfitting, leading to behaviour which often does not generalise across tasks. These challenges are further exacerbated in multi-agent systems in which multiple agents interact with each other in a shared environment. Guided by these challenges of efficiency and generalisation, my PhD research focuses on efficient and generalisable reinforcement learning in multi-agent systems.
-
-    Previously, I interned at at Microsoft Research Cambridge, where I worked with the [Game Intelligence lab](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) under the supervision of Sam Devlin, at Huawei Noah's Ark Lab and Dematic. At MSR, I researched visual encoders for imitation learning in video games, including vision foundation models. At Huawei, I was part of the multi-agent team researching novel exploration techniques for multi-agent reinforcement learning under the supervision of David Mguni. At Dematic, I researched and developed AI solutions for large-scale warehouse automation. 
-
-    **Contact: l.schaefer [at] ed.ac.uk**
+# Previously, I interned at at Microsoft Research Cambridge, where I worked with the [Game Intelligence lab](https://www.microsoft.com/en-us/research/group/deep-reinforcement-learning/) under the supervision of Sam Devlin, at Huawei Noah's Ark Lab and Dematic. At MSR, I researched visual encoders for imitation learning in video games, including vision foundation models. At Huawei, I was part of the multi-agent team researching novel exploration techniques for multi-agent reinforcement learning under the supervision of David Mguni. At Dematic, I researched and developed AI solutions for large-scale warehouse automation. 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
