@@ -16,6 +16,9 @@ degrees:
     name: University of Edinburgh
     url: "https://www.ed.ac.uk/"
     logo: images/uni_logos/uoe_logo.jpg
+  grade:
+    scale: UK PhD
+    achieved: "Pass with no corrections"
   customSections:
     - name: Thesis
       content: Efficient Exploration in Single-Agent and Multi-Agent Deep Reinforcement Learning
