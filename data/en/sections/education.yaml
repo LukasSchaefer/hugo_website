@@ -30,7 +30,7 @@ degrees:
       content: Reinforcement Learning, Multi-Agent Systems, Generalisation, Exploration, Intrinsic Rewards
   publications: #(optional)
   - title: Efficient Exploration in Single-Agent and Multi-Agent Deep Reinforcement Learning
-    url: "https://www.lukaschaefer.com/assets/files/phd_thesis.pdf"
+    url: "https://www.lukaschaefer.com/files/phd_thesis.pdf"
   # publications: #(optional)
   # - title: "Shared Experience Actor-Critic for Multi-Agent Reinforcement Learning (NeurIPS 2020)"
   #   url: "https://arxiv.org/abs/2006.07169"
@@ -213,7 +213,7 @@ degrees:
       achieved: "1.0"
   publications: #(optional)
   - title: Domain-Dependent Policy Learning using Neural Networks in Classical Planning
-    url: "https://www.lukaschaefer.com/assets/files/bsc_thesis.pdf"
+    url: "https://www.lukaschaefer.com/files/bsc_thesis.pdf"
   extracurricularActivities: #(optional)
   - Japanese language and cultural studies as minor subject.
 
