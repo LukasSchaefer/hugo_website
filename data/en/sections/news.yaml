@@ -10,9 +10,13 @@ section:
 max_posts: 8
 
 news_posts:
+- type: paper
+  date: "Nov 27, 2024"
+  content: "Our work 'Using Offline Data to Speed Up Reinforcement Learning in Procedurally Generated Environments' has been accepted at the Neurocomputing journal!"
+
 - type: award
   date: "Oct 10, 2024"
-  content: "I am very excited to have passed my PhD viva today with no corrections! Huge thanks to my examiners Prof. Subramanian Ramamoorthy and Prof. Karl Tuyls for taking the time to evaluate my thesis, their thoughtful feedback, and for making the viva experience as comfortable as possible."
+  content: "I am very excited to have passed my PhD viva today with no corrections! Huge thanks to my examiners Prof. Subramanian Ramamoorthy and Prof. Karl Tuyls for taking the time to evaluate my thesis, their thoughtful feedback, and for making the viva experience as comfortable as possible. My thesis is now accessible at [this link](https://www.lukaschaefer.com/assets/files/phd_thesis.pdf)."
 
 - type: announcement
   date: "Oct 01, 2024"
