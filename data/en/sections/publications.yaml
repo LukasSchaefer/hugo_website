@@ -39,6 +39,24 @@ publications:
   categories: ["marl","rl"]
   tags: ["Multi-Agent Reinforcement Learning"]
 
+- title: Ensemble Value Functions for Efficient Exploration in Multi-Agent Reinforcement Learning
+  publishedIn:
+    name: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+    date: 2025
+    url: "https://arxiv.org/abs/2302.03439"
+  authors:
+    - name: "Lukas Schäfer"
+    - name: Oliver Slumbers
+    - name: Stephen McAleer
+    - name: Yali Du
+    - name: Stefano V. Albrecht
+    - name: David Mguni
+  paper:
+    abstract: "Cooperative multi-agent reinforcement learning (MARL) requires agents to explore to learn to cooperate. Existing value-based MARL algorithms commonly rely on random exploration, such as ϵ-greedy, which is inefficient in discovering multi-agent cooperation. Additionally, the environment in MARL appears non-stationary to any individual agent due to the simultaneous training of other agents, leading to highly variant and thus unstable optimisation signals. In this work, we propose ensemble value functions for multi-agent exploration (EMAX), a general framework to extend any value-based MARL algorithm. EMAX trains ensembles of value functions for each agent to address the key challenges of exploration and non-stationarity: (1) The uncertainty of value estimates across the ensemble is used in a UCB policy to guide the exploration of agents to parts of the environment which require cooperation. (2) Average value estimates across the ensemble serve as target values. These targets exhibit lower variance compared to commonly applied target networks and we show that they lead to more stable gradients during the optimisation. We instantiate three value-based MARL algorithms with EMAX, independent DQN, VDN and QMIX, and evaluate them in 21 tasks across four environments. Using ensembles of five value functions, EMAX improves sample efficiency and final evaluation returns of these algorithms by 53%, 36%, and 498%, respectively, averaged all 21 tasks."
+    url: "https://arxiv.org/abs/2302.03439"
+  categories: ["marl"]
+  tags: ["Multi-Agent Reinforcement Learning", "Exploration"]
+
 - title: Using Offline Data to Speed-up Reinforcement Learning in Procedurally Generated Environments
   publishedIn:
     name: "Neurocomputing Journal"
@@ -94,24 +112,6 @@ publications:
     url: "https://arxiv.org/abs/2207.02249"
   categories: ["marl"]
   tags: ["Multi-Agent Reinforcement Learning", "Generalisation"]
-
-- title: Ensemble Value Functions for Efficient Exploration in Multi-Agent Reinforcement Learning
-  publishedIn:
-    name: "Adaptive and Learning Agents (ALA) Workshop in the International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
-    date: 2023
-    url: "https://arxiv.org/abs/2302.03439"
-  authors:
-    - name: "Lukas Schäfer"
-    - name: Oliver Slumbers
-    - name: Stephen McAleer
-    - name: Yali Du
-    - name: Stefano V. Albrecht
-    - name: David Mguni
-  paper:
-    abstract: "Cooperative multi-agent reinforcement learning (MARL) requires agents to explore to learn to cooperate. Existing value-based MARL algorithms commonly rely on random exploration, such as ϵ-greedy, which is inefficient in discovering multi-agent cooperation. Additionally, the environment in MARL appears non-stationary to any individual agent due to the simultaneous training of other agents, leading to highly variant and thus unstable optimisation signals. In this work, we propose ensemble value functions for multi-agent exploration (EMAX), a general framework to extend any value-based MARL algorithm. EMAX trains ensembles of value functions for each agent to address the key challenges of exploration and non-stationarity: (1) The uncertainty of value estimates across the ensemble is used in a UCB policy to guide the exploration of agents to parts of the environment which require cooperation. (2) Average value estimates across the ensemble serve as target values. These targets exhibit lower variance compared to commonly applied target networks and we show that they lead to more stable gradients during the optimisation. We instantiate three value-based MARL algorithms with EMAX, independent DQN, VDN and QMIX, and evaluate them in 21 tasks across four environments. Using ensembles of five value functions, EMAX improves sample efficiency and final evaluation returns of these algorithms by 53%, 36%, and 498%, respectively, averaged all 21 tasks."
-    url: "https://arxiv.org/abs/2302.03439"
-  categories: ["marl"]
-  tags: ["Multi-Agent Reinforcement Learning", "Exploration"]
 
 - title: Multi-Horizon Representations with Hierarchical Forward Models for Reinforcement Learning
   publishedIn:
