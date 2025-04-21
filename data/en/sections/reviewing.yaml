@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Reviewing
+  name: Community
   id: reviewing
   enable: true
   weight: 8
@@ -9,7 +9,14 @@ section:
   # hideTitle: true
 
 categories:
-- title: Conferences
+- title: Organiser
+  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+  # category: Conference
+  entries:
+    - year: 2025
+      content: Co-lead organiser of the [UK Multi-Agent Systems Symposium 2025](https://www.turing.ac.uk/events/uk-multi-agent-systems-symposium-2025-uk-mas) with ~200 participants in collaboration with the Alan Turing Institute and King's College London.
+
+- title: Reviewing
   # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
   # category: Conference
   entries:
@@ -17,7 +24,7 @@ categories:
       content: ICML, RLDM
   entries:
     - year: 2024
-      content: ICML (**best reviewer award**), RLC, AAMAS
+      content: ICML (**best reviewer award**), RLC, AAMAS, TLMR
     - year: 2023
       content: NeurIPS, NeurIPS Datasets and Benchmark Track, ICML, AAMAS
     - year: 2022
@@ -25,16 +32,9 @@ categories:
     - year: 2021
       content: NeurIPS
 
-- title:  Workshops
-  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
-  # category: Conference
-  entries:
-    - year: 2020
-      content: Pre-registration experiment workshop at NeurIPS
-
-- title:  Journals
-  # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
-  # category: Conference
-  entries:
-    - year: 2024
-      content: Transactions on Machine Learning Research (TMLR)
+# - title:  Workshops
+#   # url: "https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks"
+#   # category: Conference
+#   entries:
+#     - year: 2020
+#       content: Pre-registration experiment workshop at NeurIPS
