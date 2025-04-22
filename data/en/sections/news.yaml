@@ -11,6 +11,14 @@ max_posts: 8
 
 news_posts:
 - type: paper
+  date: "Apr 01, 2025"
+  content: "I will present our work [Visual Encoders for Data-Efficient Imitation Learning in Modern Video Games](https://arxiv.org/abs/2312.02312) at the Adaptive and Learning Agents (ALA) Workshop at the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2025!"
+
+- type: announcement
+  date: "Mar 19, 2025"
+  content: "It is a wrap! It's been a great pleasure to organise the [UK Multi-Agent Systems Symposium 2025](https://www.turing.ac.uk/events/uk-multi-agent-systems-symposium-2025-uk-mas) alongside Matteo Bettini and an overall fantastic organising team. The event was a great success and brought together almost 200 researchers from the UK and beyond to discuss research and applications in multi-agent systems."
+
+- type: paper
   date: "Dec 19, 2024"
   content: "Our work [Ensemble Value Functions for Efficient Exploration in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2302.03439) has been accepted at the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2025!"
 
