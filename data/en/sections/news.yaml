@@ -10,6 +10,10 @@ section:
 max_posts: 8
 
 news_posts:
+- type: award
+  date: "June 02, 2025"
+  content: "Honored to receive the best reviewer award for the International Conference on Machine Learning (ICML) 2025! (Now for the 3rd time!)"
+
 - type: paper
   date: "Apr 01, 2025"
   content: "I will present our work [Visual Encoders for Data-Efficient Imitation Learning in Modern Video Games](https://arxiv.org/abs/2312.02312) at the Adaptive and Learning Agents (ALA) Workshop at the International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS) 2025!"
