@@ -10,6 +10,10 @@ section:
 max_posts: 8
 
 news_posts:
+- type: talk
+  date: "July 04, 2025"
+  content: "It's been an honour to give an invited talk on 'Decision Making in Video Games' at the [BeNeRL 2025 Workshop](https://www.benerl.org/workshop/2025-eindhoven) in Eindhoven! Thanks for the organisers for the invitation and the great event!"
+
 - type: award
   date: "June 02, 2025"
   content: "Honored to receive the best reviewer award for the International Conference on Machine Learning (ICML) 2025! (Now for the 3rd time!)"
