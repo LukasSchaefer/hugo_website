@@ -21,6 +21,17 @@ buttons:
 
 # your publications
 publications:
+- title: "Efficient Exploration in Single-Agent and Multi-Agent Deep Reinforcement Learning"
+  publishedIn:
+    name: Edinburgh Research Archive
+    date: 2024
+    url: https://era.ed.ac.uk/handle/1842/42887
+  authors:
+  - name: Lukas Schäfer
+  paper:
+    url: https://era.ed.ac.uk/handle/1842/42887
+  categories: ["marl","rl"]
+  tags: ["Multi-Agent Reinforcement Learning", "Reinforcement Learning", "Exploration"]
 - title: "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches"
   publishedIn:
     name: MIT Press
