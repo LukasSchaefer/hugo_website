@@ -11,6 +11,10 @@ max_posts: 8
 
 news_posts:
 - type: talk
+  date: "Oct 20, 2025"
+  content: "I had a chance to give an invited talk at the University of Sheffield ML Seminar Series! Thanks to Robert Loftin for the invitation and for hosting me for the day!"
+
+- type: talk
   date: "July 04, 2025"
   content: "It's been an honour to give an invited talk on 'Decision Making in Video Games' at the [BeNeRL 2025 Workshop](https://www.benerl.org/workshop/2025-eindhoven) in Eindhoven! Thanks for the organisers for the invitation and the great event!"
 
