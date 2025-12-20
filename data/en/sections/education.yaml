@@ -104,7 +104,7 @@ degrees:
       outOf: 100
   publications: #(optional)
   - title: Curiosity in Multi-Agent Reinforcement Learning (74%)
-    url: "https://www.researchgate.net/profile/Lukas-Schaefer-4/publication/337991678_Curiosity_in_Multi-Agent_Reinforcement_Learning/links/5df92a6c299bf10bc3634a1a/Curiosity-in-Multi-Agent-Reinforcement-Learning.pdf"
+    url: "https://www.lukaschaefer.com/files/msc_thesis.pdf"
   extracurricularActivities: #(optional)
   - Active position as navigation engineer for HYPED.
   - Participation in GEAS roleplaying society.
