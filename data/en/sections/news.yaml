@@ -11,6 +11,14 @@ max_posts: 8
 
 news_posts:
 - type: talk
+  date: "Jan 20, 2026"
+  content: "I had the pleasure of giving an invited talk at the Cohere Labs Seminar! Thanks to Rahul Narava for the invitation and for hosting me!"
+
+- type: talk
+  date: "Dec 7th, 2025"
+  content: "I had the pleasure of giving an invited talk at the [Interactive Learning and Interventional Representations Workshop](https://sites.google.com/view/ilir-workshop-dec-2-2025/) at the EurIPS conference in Copenhagen!"
+
+- type: talk
   date: "Oct 20, 2025"
   content: "I had a chance to give an invited talk at the University of Sheffield ML Seminar Series! Thanks to Robert Loftin for the invitation and for hosting me for the day!"
 
