@@ -1,5 +1,5 @@
 [build]
-command = "hugo --gc --minify --cleanDestinationDir"
+command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --cleanDestinationDir"
 publish = "public"
 
 [context.production.environment]
