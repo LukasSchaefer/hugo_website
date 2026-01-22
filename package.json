@@ -1,39 +1,41 @@
 {
+  "author": "Emruz Hossain",
+  "bugs": {
+    "url": "https://github.com/hugo-toha/toha/issues"
+  },
   "comments": {
     "dependencies": {},
     "devDependencies": {
-      "@fontsource/mulish": "github.com/LukasSchaefer/toha/v4",
-      "@fortawesome/fontawesome-free": "github.com/LukasSchaefer/toha/v4",
-      "autoprefixer": "github.com/LukasSchaefer/toha/v4",
-      "bootstrap": "github.com/LukasSchaefer/toha/v4",
-      "eslint": "github.com/LukasSchaefer/toha/v4",
-      "eslint-config-prettier": "github.com/LukasSchaefer/toha/v4",
-      "eslint-config-standard": "github.com/LukasSchaefer/toha/v4",
-      "eslint-plugin-import": "github.com/LukasSchaefer/toha/v4",
-      "eslint-plugin-n": "github.com/LukasSchaefer/toha/v4",
-      "eslint-plugin-no-jquery": "github.com/LukasSchaefer/toha/v4",
-      "eslint-plugin-promise": "github.com/LukasSchaefer/toha/v4",
-      "feather-icons": "github.com/LukasSchaefer/toha/v4",
-      "filterizr": "github.com/LukasSchaefer/toha/v4",
-      "flag-icons": "github.com/LukasSchaefer/toha/v4",
-      "fuse.js": "github.com/LukasSchaefer/toha/v4",
-      "highlight.js": "github.com/LukasSchaefer/toha/v4",
-      "imagesloaded": "github.com/LukasSchaefer/toha/v4",
-      "include-media": "github.com/LukasSchaefer/toha/v4",
-      "ityped": "github.com/LukasSchaefer/toha/v4",
-      "katex": "github.com/LukasSchaefer/toha/v4",
-      "mark.js": "github.com/LukasSchaefer/toha/v4",
-      "mermaid": "github.com/LukasSchaefer/toha/v4",
-      "plyr": "github.com/LukasSchaefer/toha/v4",
-      "popper.js": "github.com/LukasSchaefer/toha/v4",
-      "postcss": "github.com/LukasSchaefer/toha/v4",
-      "postcss-cli": "github.com/LukasSchaefer/toha/v4"
+      "@fontsource/mulish": "project",
+      "@fortawesome/fontawesome-free": "project",
+      "bootstrap": "project",
+      "eslint": "project",
+      "eslint-config-prettier": "project",
+      "eslint-config-standard": "project",
+      "eslint-plugin-import": "project",
+      "eslint-plugin-n": "project",
+      "eslint-plugin-no-jquery": "project",
+      "eslint-plugin-promise": "project",
+      "feather-icons": "project",
+      "filterizr": "project",
+      "flag-icons": "project",
+      "fuse.js": "project",
+      "highlight.js": "project",
+      "imagesloaded": "project",
+      "include-media": "project",
+      "katex": "project",
+      "mark.js": "project",
+      "mermaid": "project",
+      "plyr": "project",
+      "popper.js": "project",
+      "typeit": "project"
     }
   },
+  "dependencies": {},
+  "description": "A [Hugo](https://gohugo.io/) theme for a personal portfolio with minimalist design and responsiveness.",
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
     "@fortawesome/fontawesome-free": "^6.6.0",
-    "autoprefixer": "^10.4.20",
     "bootstrap": "^5.3.3",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
@@ -49,15 +51,24 @@
     "highlight.js": "^11.6.0",
     "imagesloaded": "^5.0.0",
     "include-media": "^1.4.10",
-    "ityped": "^1.0.3",
     "katex": "^0.16.11",
     "mark.js": "^8.11.1",
-    "mermaid": "^10.9.5",
+    "mermaid": "^11.10.0",
     "plyr": "^3.7.2",
     "popper.js": "^1.16.1",
-    "postcss": "^8.4.41",
-    "postcss-cli": "^11.0.0"
+    "typeit": "^8.8.7"
   },
-  "name": "website",
-  "version": "0.1.0"
+  "homepage": "https://github.com/hugo-toha/toha#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "toha",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo-toha/toha.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "version": "1.0.0"
 }
